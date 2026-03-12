@@ -65,6 +65,8 @@ _**Следствие:**_ момент равнодействующей сход
 \begin{cases} \sum_{i=1}^{n}m_A(\vec{F}_{i})=0 \\ \sum_{i=1}^{n}m_B(\vec{F}_{i})=0 \\ \sum_{i=1}^{n}m_C(\vec{F}_{i})=0 \end{cases}
 ```
 <img width="639" height="823" alt="image" src="https://github.com/user-attachments/assets/ea0aa126-3892-4562-989f-0f8f12579296" />  
+
+  
 > Внутренний покой! Внутренний покой... © Кунг-фу Панда
 
 # Задача
