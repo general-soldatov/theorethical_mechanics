@@ -26,6 +26,6 @@
 **Аналитическое условие равновесия сходящейся системы сил**
 Равновесие сходящейся системы сил достигается при условии, когда алгебраическая сумма проекций векторов сил вдоль оси равны 0. 
 ```math
-\begin{cases} \sum_{i=1}^{n}\vec{F}_{ix}=0 \\ \sum_{i=1}^{n}\vec{F}_{iy}=0
-```
+\begin{cases} \sum_{i=1}^{n}\vec{F}_{ix}=0 \\ \sum_{i=1}^{n}\vec{F}_{iy}=0 \end{cases}
+```  
 <img width="720" height="883" alt="image" src="https://github.com/user-attachments/assets/4bcbb349-1f63-42d0-b7db-14076957242e" />
