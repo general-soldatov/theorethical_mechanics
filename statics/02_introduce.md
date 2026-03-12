@@ -20,3 +20,5 @@
 ├── Динамика
 └── Основы аналитической механики
 ```
+Ну а за правильные решения вы получаете баллы!  
+<img width="1006" height="705" alt="image" src="https://github.com/user-attachments/assets/e820aaec-0222-49d5-a9a6-a5db4270aa13" />
