@@ -20,6 +20,7 @@ _**Силы, распределенные вдоль отрезка прямой
 ## Более подробно о связях
 * Неподвижный шарнир  
 <img width="279" height="450" alt="image" src="https://github.com/user-attachments/assets/5998b257-9e27-419f-b2d6-97c6935c7ba1" />
+
 * Жесткая заделка
 <img width="522" height="439" alt="image" src="https://github.com/user-attachments/assets/88d36946-b563-457c-ab11-0316187d539d" />
 
