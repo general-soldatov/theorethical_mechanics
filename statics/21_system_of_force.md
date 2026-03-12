@@ -64,9 +64,9 @@ _**Следствие:**_ момент равнодействующей сход
 ```math
 \begin{cases} \sum_{i=1}^{n}m_A(\vec{F}_{i})=0 \\ \sum_{i=1}^{n}m_B(\vec{F}_{i})=0 \\ \sum_{i=1}^{n}m_C(\vec{F}_{i})=0 \end{cases}
 ```
-<img width="639" height="823" alt="image" src="https://github.com/user-attachments/assets/ea0aa126-3892-4562-989f-0f8f12579296" />
+<img width="639" height="823" alt="image" src="https://github.com/user-attachments/assets/ea0aa126-3892-4562-989f-0f8f12579296" />  
 > Внутренний покой! Внутренний покой... © Кунг-фу Панда
 
 # Задача
 Жесткая рама имеет в точке А неподвижную шарнирную опору, а в точке В - подвижную шарнирную опору на катках. Все действующие силы и размеры показаны на рисунке. Дано: F1= 25 Н, F2=18 Н, a=60о , γ =75о , β =30о , М= 50 Н·м, а=0,5 м. Определить реакции в точках А и В, вызываемые действующими нагрузками.  
-<img width="1050" height="694" alt="image" src="https://github.com/user-attachments/assets/d69f237a-78cd-4d2c-b6c1-902b515c2c15" />
+<img width="1050" height="694" alt="image" src="https://github.com/user-attachments/assets/d69f237a-78cd-4d2c-b6c1-902b515c2c15" />  
