@@ -14,6 +14,18 @@
 
 <img width="598" height="729" alt="image" src="https://github.com/user-attachments/assets/96d75464-b055-45b7-a3dc-aa1f7b9d3c2f" />
 
+**Теорема о трёх силах**  
+Если тело находится в равновесии под действием трех непараллельных сил, то эти силы сходятся в одной точке.  
+<img width="870" height="444" alt="image" src="https://github.com/user-attachments/assets/5d54852c-9f4f-4084-8242-20a6e8cc7993" />
 
+Как пример, можем рассмотреть такую конструкцию со стержнем, закреплённым шарнирно к стене и который держится на верёвке.  
+<img width="879" height="719" alt="image" src="https://github.com/user-attachments/assets/a58b185e-61ed-431f-98a3-509f2661afe7" />  
 
+> Чем-то похоже на полку, а может на _нары..._
+
+**Аналитическое условие равновесия сходящейся системы сил**
+Равновесие сходящейся системы сил достигается при условии, когда алгебраическая сумма проекций векторов сил вдоль оси равны 0. 
+```math
+\begin{cases} \sum_{i=1}^{n}\vec{F}_{ix}=0 \\ \sum_{i=1}^{n}\vec{F}_{iy}=0
+```
 <img width="720" height="883" alt="image" src="https://github.com/user-attachments/assets/4bcbb349-1f63-42d0-b7db-14076957242e" />
