@@ -36,7 +36,8 @@ x_c = \frac{\sum P_k \cdot x_k}{P} = \frac{\sum 𝛾 \cdot ∆𝐹_𝑘 \cdot x_
 ```
 формулы для определения координат центра тяжести однородной пластинки принимают вид:
 ```math
-\begin{cases} x_c = \frac{1}{F} \int{x, dF} \\ y_c = \frac{1}{F} \int{y, dF} \end{cases}
+x_c = \frac{1}{F} \int{x, dF}
+y_c = \frac{1}{F} \int{y, dF}
 ```
 
 <img width="814" height="557" alt="image" src="https://github.com/user-attachments/assets/73914749-ddcc-42b6-b140-ed3439c97b9c" />
