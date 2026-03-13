@@ -24,5 +24,6 @@
 На рисунке изображено составное тело, состоящее из трех шарнирно соединенных между собой балок, две из которых опираются на неподвижные шарниры. Требуется определить величину силы F, необходимую, чтобы тело находилось в равновесии, считая величину силы Q заданной и AK = KC = BP = PD.  
 <img width="869" height="548" alt="image" src="https://github.com/user-attachments/assets/8ec37fef-092f-4319-a5a2-29579d7020a9" />  
 
+<details><summary><b>Спасибо за внимание?!</b></summary><img width="1530" height="861" alt="image" src="https://github.com/user-attachments/assets/246f8c8f-fbd2-48e3-9db1-ed06aac0db35" /></details>
 
 
