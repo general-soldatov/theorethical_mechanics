@@ -42,4 +42,31 @@ x_c = \frac{1}{F} \int{xdF}
 y_c = \frac{1}{F} \int{ydF}
 ```
 
-<img width="814" height="557" alt="image" src="https://github.com/user-attachments/assets/73914749-ddcc-42b6-b140-ed3439c97b9c" />
+<img width="814" height="557" alt="image" src="https://github.com/user-attachments/assets/73914749-ddcc-42b6-b140-ed3439c97b9c" />  
+
+## Центр тяжести линии
+Вес проволоки 
+```math
+𝑃 =𝛾\cdot 𝐿
+```
+где L = AB, а 𝛾 – вес единицы длины проволоки.  
+Разобьем проволоку на элементарные участки ∆𝐿_𝑘. Вес каждого участка:
+```math
+𝑃_𝑘= 𝛾\cdot ∆𝐿_𝑘
+```
+<img width="792" height="514" alt="image" src="https://github.com/user-attachments/assets/abae4fd9-ce13-4cd8-b458-8c1d794c0c96" />  
+
+Подставляя эти величины в формулы для координат центра тяжести тела, получаем:
+```math
+x_c = \frac{\sum P_k \cdot x_k}{P} = \frac{\sum 𝛾 \cdot ∆L_𝑘 \cdot x_k}{𝛾\cdot L} = \frac{\sum ∆L_𝑘 \cdot x_k}{L}
+```
+или в интегральном исчислении:
+```math
+x_c = \frac{1}{L} \int{xdL}
+```
+```math
+y_c = \frac{1}{L} \int{ydL}
+```
+```math
+z_c = \frac{1}{L} \int{zdL}
+```
