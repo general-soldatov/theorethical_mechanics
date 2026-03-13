@@ -32,5 +32,10 @@ L=R \cdot 2𝛼
 ```
 Преобразуем уравнение:
 ```math
-x_c = \frac{1}{2𝛼R} \int_{-𝛼}^{𝛼}{R^2 cos (\phi) d\phi} = \frac{R}{2\alpha}\int_{-\alpha}^{alpha}{cos\varphi d\varphi}
+x_c = \frac{1}{2𝛼R} \int_{-𝛼}^{𝛼}{R^2 cos (\varphi) d\varphi} = \frac{R}{2\alpha}\int_{-\alpha}^{\alpha}{cos\varphi d\varphi} = \frac{R}{2\cdot\alpha}(sin \alpha - sin(-\alpha))
 ```
+Получаем:
+```math
+x_c = \frac{R\cdot sin\alpha}{\alpha}
+```
+Центр тяжести лежит на биссектрисе угла α.
