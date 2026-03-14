@@ -34,7 +34,7 @@ x =3 sin\left(\frac{𝜋𝑡}{6}\right)+2
 ```
 В момент времени $t=1$ c.
 
-<details><summary><b>Подсказка:</b></summary>
+<details><summary><b>Подсказка</b></summary>
 <p>$$cos⁡2𝛼=1−2 sin^2⁡𝛼$$</p>
 </details>  
 
