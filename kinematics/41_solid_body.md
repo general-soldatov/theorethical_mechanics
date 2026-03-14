@@ -45,3 +45,4 @@
 ```math
 𝑎=\sqrt{𝑎_𝜏^2+𝑎_𝑛^2}=ℎ\sqrt{𝜀^2+𝜔^4}
 ```
+<img width="611" height="407" alt="image" src="https://github.com/user-attachments/assets/3ab09703-3002-43f2-bdba-21b61e07ef69" />
