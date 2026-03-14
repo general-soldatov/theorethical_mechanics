@@ -30,10 +30,10 @@
 ### Задача:
 Найдем уравнение траектории движения точки.
 ```math
-𝑥= 2\cdot sin⁡(\frac{𝜋}{6}𝑡)
+𝑥= 2\cdot sin\left⁡(\frac{𝜋}{6}𝑡\right)
 ```
 ```math
-𝑦=3−5cos⁡(\frac{𝜋}{6}𝑡)
+𝑦=3−5cos\left⁡(\frac{𝜋}{6}𝑡\right)
 ```
 <details><summary><b>Подсказка</b></summary>
 <p>$$sin^2⁡𝛼+cos^2⁡𝛼=1$$</p>
