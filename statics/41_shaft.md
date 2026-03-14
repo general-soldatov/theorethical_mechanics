@@ -44,3 +44,5 @@
 <img width="818" height="412" alt="image" src="https://github.com/user-attachments/assets/b898bb13-eb2a-410f-a63f-9fdb28b6531d" />  
 
 
+<details><summary><b>Спасибо за внимание?!</b></summary><img width="1419" height="1065" alt="image" src="https://github.com/user-attachments/assets/906496aa-9351-4f02-9047-e330c357aecf" />
+</details>
