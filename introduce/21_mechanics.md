@@ -13,3 +13,7 @@
 ```math
 \vec{F}=m\vec{a}
 ```
+
+<img width="816" height="533" alt="image" src="https://github.com/user-attachments/assets/750e2783-4a52-49eb-a4ff-67a42591b410" />  
+
+> С новым годом?? А может учебным годом...
