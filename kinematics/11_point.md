@@ -35,9 +35,8 @@
 ```math
 𝑦=3−5cos⁡(\frac{𝜋}{6}𝑡)
 ```
-Подсказка:
-```math
-sin^2⁡𝛼+cos^2⁡𝛼=1
-```
+<details><summary><b>Подсказка</b></summary>
+<p>$$sin^2⁡𝛼+cos^2⁡𝛼=1$$</p>
+</details>
 <img width="730" height="699" alt="image" src="https://github.com/user-attachments/assets/f89157fc-3cd4-4076-af82-4c345cab7cc0" />  
 
