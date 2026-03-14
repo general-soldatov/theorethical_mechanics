@@ -80,3 +80,6 @@
 
 <img width="529" height="879" alt="image" src="https://github.com/user-attachments/assets/7d29ebe1-c60b-406d-ba01-7b7dd925cf8f" />  
 
+  
+<details><summary><b>Спасибо за внимание?!</b></summary><img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/38824544-dba3-4cbe-909a-47203cb51e8b" />
+</details>
