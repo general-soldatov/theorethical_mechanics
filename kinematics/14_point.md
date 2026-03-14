@@ -17,9 +17,9 @@
 ```
 Отсюда:
 ```math
-\displaystyle{\begin{case} v_x=\frac{dx}{dt} \\ v_y=\frac{dy}{dt} \\ v_z =\frac{dz}{dt} \end{case}}
+\displaystyle{\begin{cases} v_x=\frac{dx}{dt} \\ v_y=\frac{dy}{dt} \\ v_z =\frac{dz}{dt} \end{cases}}
 ```
 Следовательно, проекции скорости точки на неподвижные оси декартовых координат равны первым производным от соответствующих координат по времени. Модуль:
 𝑣=√(𝑣_𝑥^2+𝑣_𝑦^2+𝑣_𝑧^2 )
 Направление скорости точки:
-cos⁡〖(𝑣,𝑖)=𝑣_𝑥/𝑣,cos⁡(𝑣,𝑗)=𝑣_𝑦/𝑣,cos⁡(𝑣,𝑧)=𝑣_𝑧/𝑣〗<img width="4721" height="617" alt="image" src="https://github.com/user-attachments/assets/2e101d29-a426-42d6-8335-a6342d8fa969" />
+cos⁡〖(𝑣,𝑖)=𝑣_𝑥/𝑣,cos⁡(𝑣,𝑗)=𝑣_𝑦/𝑣,cos⁡(𝑣,𝑧)=𝑣_𝑧/𝑣〗
