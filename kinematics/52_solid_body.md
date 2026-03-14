@@ -54,10 +54,10 @@
 ```
 т. е. ускорения точек плоской фигуры пропорциональны их расстояниям от мгновенного центра ускорений.  
 <img width="564" height="705" alt="image" src="https://github.com/user-attachments/assets/939f6980-d18f-42bf-8fa1-d4c02b3da2a8" />
-<details><summary><b>Спасибо за внимание?!</b></summary><img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/d6596e14-fc79-423c-941b-d117153b5ddc" />
-</details>
 
 ### Задача
 Дан квадрат со стороной b. Ускорение точки А равно 2a, ускорение точки В равно а. Найти ускорение точки D. По условию мгновенный центр ускорений должен находиться в два раза дальше от точки А, чем от точки В, то есть AQ=2BQ. Как видно из рисунка, треугольник ABQ – прямоугольный и tan⁡𝛼  = 0,5.  
 <img width="756" height="673" alt="image" src="https://github.com/user-attachments/assets/2f52803f-688c-4944-8f0e-00e6a5a5456f" />  
 
+<details><summary><b>Спасибо за внимание?!</b></summary><img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/d6596e14-fc79-423c-941b-d117153b5ddc" />
+</details>
