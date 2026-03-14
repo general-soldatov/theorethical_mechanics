@@ -24,4 +24,7 @@
 𝑣=\sqrt{𝑣_𝑥^2+𝑣_𝑦^2+𝑣_𝑧^2}
 ```
 Направление скорости точки:
-cos⁡〖(𝑣,𝑖)=𝑣_𝑥/𝑣,cos⁡(𝑣,𝑗)=𝑣_𝑦/𝑣,cos⁡(𝑣,𝑧)=𝑣_𝑧/𝑣〗
+```math
+\begin{cases} cos(𝑣,𝑖)=\frac{𝑣_𝑥}{𝑣} \\ cos⁡(𝑣,𝑗) = \frac{𝑣_𝑦}{𝑣} \\ cos⁡(𝑣,𝑧)=\frac{𝑣_𝑧}{𝑣} \end{cases}
+```
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/95858c9b-7fb1-41ea-9f7d-2f52a9bfad52" />
