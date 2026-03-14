@@ -33,7 +33,12 @@ x =3 sin\left(\frac{𝜋𝑡}{6}\right)+2
 𝑦=cos\left(\frac{𝜋𝑡}{3}\right)+4
 ```
 В момент времени $t=1$ c.
-Подсказка:
+
+<details><summary><b>Подсказка:</b></summary>
 ```math
 cos⁡2𝛼=1−2 sin^2⁡𝛼
 ```
+</details>  
+
+<img width="784" height="680" alt="image" src="https://github.com/user-attachments/assets/1b24a532-a5cb-4141-b676-d45027ee6707" />
+
