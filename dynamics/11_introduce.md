@@ -5,4 +5,4 @@
 Количественной мерой инертности материального тела является **масса тела**.
 **Количество движения** – это векторная величина mv, равная произведению массы точки на ее скорость.
 
-![Image](images/photo.png)
+![Image](https://github.com/general-soldatov/theorethical_mechanics/blob/main/images/photo.png)
