@@ -34,7 +34,7 @@ m\vec{𝑣}_2−𝑚\vec{𝑣}_1=\int_{𝑡_1}^{𝑡_2}\vec{𝑅}dt{, \ \ \ }\ve
 ```
 При проекции сил и ускорений на оси координат:
 ```math
-\begin{cases} 𝑚\ddot{𝑥}=𝐹_{𝑥1}+𝐹_{𝑥2}+…+𝐹_{𝑥𝑛}=\sum 𝐹_{𝑘𝑥} \\ 𝑚\ddot{𝑦}=𝐹_{𝑦1}+𝐹_{𝑦2}+…+𝐹_{𝑦𝑛}=\sum 𝐹_{𝑘𝑦} \\ 𝑚\ddot{𝑧}=𝐹_{𝑧1}+𝐹_{𝑧2}+…+𝐹_{𝑧𝑛}=\dum 𝐹_{𝑘𝑧} \end{cases}
+\begin{cases} 𝑚\ddot{𝑥}=𝐹_{𝑥1}+𝐹_{𝑥2}+…+𝐹_{𝑥𝑛}=\sum 𝐹_{𝑘𝑥} \\ 𝑚\ddot{𝑦}=𝐹_{𝑦1}+𝐹_{𝑦2}+…+𝐹_{𝑦𝑛}=\sum 𝐹_{𝑘𝑦} \\ 𝑚\ddot{𝑧}=𝐹_{𝑧1}+𝐹_{𝑧2}+…+𝐹_{𝑧𝑛}=\sum 𝐹_{𝑘𝑧} \end{cases}
 ```
 ![Image](https://github.com/general-soldatov/theorethical_mechanics/blob/main/images/task1.png)
 
