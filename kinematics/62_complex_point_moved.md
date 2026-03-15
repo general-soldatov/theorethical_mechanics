@@ -78,7 +78,7 @@ d\vec{𝑣_{отн2}}=\vec{𝜔}×\vec{𝑣_{отн}}𝑑𝑡
 ```
 Или
 ```math
-\frac{𝑑\vec{𝑣_{пер1}}{𝑑𝑡}=\vec{𝜔}×\vec{𝑣_{отн}}
+\frac{𝑑\vec{𝑣_{пер1}}}{𝑑𝑡}=\vec{𝜔}×\vec{𝑣_{отн}}
 ```
 <img width="730" height="547" alt="image" src="https://github.com/user-attachments/assets/0ca43789-6c35-4609-a0ed-33bd6a7b6b97" />  
   
