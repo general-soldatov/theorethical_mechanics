@@ -1,0 +1,445 @@
+- text:
+    path: kinematics/51_solid_body.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какое движение твердого тела называется поступательным?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Движение, при котором любая прямая, проведенная в теле, остается параллельной
+        своему начальному положению
+      - Все точки тела движутся по одинаковым траекториям
+      wrong:
+      - Движение, при котором все точки тела движутся по окружностям
+      - Движение, при котором тело вращается вокруг неподвижной оси
+      - Движение, при котором одна точка тела остается неподвижной
+- choice:
+    question:
+      types: choice
+      text_data: Какое движение твердого тела называется вращательным?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Движение, при котором все точки тела движутся по окружностям, центры которых
+        лежат на одной прямой — оси вращения
+      wrong:
+      - Движение, при котором тело перемещается параллельно самому себе
+      - Движение, при котором все точки тела имеют одинаковые скорости
+      - Движение, при котором тело не деформируется
+- choice:
+    question:
+      types: choice
+      text_data: Что называется осью вращения твердого тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Неподвижная прямая, вокруг которой вращается тело
+      - Геометрическое место точек тела, остающихся неподвижными при вращении
+      wrong:
+      - Линия, соединяющая центр масс с точкой приложения силы
+      - Траектория движения центра масс
+      - Прямая, проходящая через две произвольные точки тела
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется угол поворота тела при вращательном движении?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Угол φ = φ(t) — закон вращательного движения
+      - Угол поворота измеряется в радианах
+      wrong:
+      - Угол поворота равен отношению линейного перемещения к радиусу
+      - Угол поворота всегда постоянен
+      - Угол поворота измеряется в градусах
+- number:
+    question:
+      types: number
+      text_data: При равномерном вращении маховик делает 10 оборота в секунду. За
+        сколько секунд маховик повернется на угол φ = 22π
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '1.1'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Что называется угловой скоростью тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Первая производная угла поворота по времени: $ω = dφ/dt$'
+      - Векторная величина, направленная вдоль оси вращения по правилу правого винта
+      wrong:
+      - Отношение линейной скорости к радиусу
+      - Вторая производная угла поворота по времени
+      - Постоянная величина для любого вращения
+- number:
+    question:
+      types: number
+      text_data: Частота вращения маховика за время $t_1 = 6$ с уменьшилась в 3 раза
+        и стала равной 30 об/мин. Определить угловое ускорение вала, если он вращался
+        равнозамедленно.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '-1.0472'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Что называется угловым ускорением тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Первая производная угловой скорости по времени: $ε = dω/dt = d²φ/dt²$'
+      - Характеризует быстроту изменения угловой скорости
+      wrong:
+      - Произведение угловой скорости на радиус
+      - Величина, обратная угловой скорости
+      - Отношение линейного ускорения к радиусу
+- number:
+    question:
+      types: number
+      text_data: Тело вращается вокруг неподвижной оси согласно закону $φ = t^3 + 2$.
+        Определить угловую скорость тела в момент времени, когда угол поворота $φ =
+        16$ рад.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '16.58642'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны линейная (окружная) скорость точки вращающегося тела
+        с угловой скоростью?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - v = ω·R, где R — расстояние от точки до оси вращения
+      - Вектор скорости направлен по касательной к окружности
+      wrong:
+      - v = ω/R
+      - v = ε·R
+      - v = ω²·R
+- number:
+    question:
+      types: number
+      text_data: Тело вращается вокруг неподвижной оси согласно закону $φ = t^2$. Определите
+        скорость точки тела на расстоянии $r = 0.7$ м от оси вращения в момент времени,
+        когда угол поворота φ = 15 рад.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '5.23832'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Какие компоненты имеет ускорение точки вращающегося тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Касательное (вращательное) ускорение: $a_τ = ε·R$'
+      - 'Нормальное (центростремительное) ускорение: $a_n = ω²·R = v²/R$'
+      wrong:
+      - Только касательное ускорение
+      - Только нормальное ускорение
+      - Радиальное и тангенциальное (это те же компоненты)
+- number:
+    question:
+      types: number
+      text_data: Скорость точки тела на расстоянии r = 0.2 м от оси вращения изменяется
+        по закону $v = 4t^2$. Определить угловое ускорение данного тела в момент времени
+        t = 4 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '160.0'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Как направлено касательное (вращательное) ускорение точки вращающегося
+        тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По касательной к окружности, в сторону ускоренного вращения (совпадает с v
+        при ε > 0, противоположно v при ε < 0)
+      wrong:
+      - Всегда к центру окружности
+      - Всегда от центра окружности
+      - Вдоль оси вращения
+- choice:
+    question:
+      types: choice
+      text_data: Как направлено нормальное (центростремительное) ускорение точки вращающегося
+        тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По радиусу к оси вращения (к центру окружности)
+      wrong:
+      - По касательной к окружности
+      - Вдоль оси вращения
+      - По радиусу от оси вращения
+- number:
+    question:
+      types: number
+      text_data: В данный момент времени тело совершает мгновенное вращение относительно
+        точки касания его с плоскостью. Определить угловую скорость тела, если скорость
+        точки С равна 17 м/с, а расстояние АС = 86 см.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_4
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '19.76744'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Поступательное движение
+      - Вращательное движение
+      - Ось вращения
+      - Угловая скорость
+      second:
+      - Движение, при котором любой отрезок в теле остается параллельным своему начальному
+        положению
+      - Движение, при котором все точки тела движутся по окружностям с центрами на
+        одной прямой
+      - Неподвижная прямая, вокруг которой вращается тело
+      - Векторная величина, характеризующая быстроту вращения, ω = dφ/dt
+- number:
+    question:
+      types: number
+      text_data: Определить угловую скорость колеса, если точка А имеет скорость vA=
+        19 м/с, а радиус колеса r = 0.3 м.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_5
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '42.22222'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной (для вращательного движения).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $ω = dφ/dt$
+      - $ε = dω/dt$
+      - $v = ω·R$
+      - $a_τ = ε·R$
+      - $a_n = ω²·R$
+      second:
+      - Угловая скорость
+      - Угловое ускорение
+      - Линейная (окружная) скорость точки
+      - Касательное (вращательное) ускорение точки
+      - Нормальное (центростремительное) ускорение точки
+- number:
+    question:
+      types: number
+      text_data: Стержень АВ длиной 79 см движется в плоскости чертежа. В некоторый
+        момент времени точки А и В стержня имеют скорости $v_A = 3 м/с$, $v_B = 8 м/с$.
+        Определить расстояние от точки А до мгновенного центра скоростей.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_6
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '0.21545'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте вид движения твердого тела с его характеристикой.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Поступательное движение
+      - Равномерное вращательное движение
+      - Равнопеременное вращательное движение
+      - Вращательное движение с переменным угловым ускорением
+      second:
+      - Все точки тела имеют одинаковые скорости и ускорения
+      - ω = const, ε = 0, φ = φ₀ + ω·t
+      - ε = const, ω = ω₀ + ε·t, φ = φ₀ + ω₀·t + ε·t²/2
+      - ε = ε(t) — функция времени
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между направлением и видом ускорения точки
+        вращающегося тела.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - По касательной к траектории
+      - По радиусу к оси вращения
+      - Геометрическая сумма двух составляющих
+      - Перпендикулярно плоскости вращения
+      second:
+      - Касательное (вращательное) ускорение $a_τ$
+      - Нормальное (центростремительное) ускорение $a_n$
+      - Полное ускорение $a$
+      - Угловая скорость $ω$ (вектор)
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример с типом движения твердого тела.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Кабина колеса обозрения (кабина не вращается)
+      - Колесо, вращающееся вокруг неподвижной оси
+      - Стрелка часов
+      - Движение кузова автомобиля по прямолинейному участку дороги
+      second:
+      - Поступательное движение (кабина сохраняет ориентацию)
+      - Вращательное движение
+      - Вращательное движение
+      - Поступательное движение (при отсутствии поворотов)

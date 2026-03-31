@@ -1,0 +1,356 @@
+- text:
+    path: kinematics/40_point_boost.yaml
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется вектор ускорения точки при векторном способе задания
+        движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a = dv/dt = d²r/dt²$
+      wrong:
+      - $a = dr/dt$
+      - $a = ∫ v dt$
+      - $a = |dv/dt|$
+- text:
+    path: kinematics/42_point_boost.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какие компоненты имеет полное ускорение точки при естественном способе
+        задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Касательное ускорение $a_τ$
+      - Нормальное ускорение $a_n$
+      wrong:
+      - Радиальное ускорение
+      - Кориолисово ускорение
+      - Центростремительное ускорение (входит в $a_n$)
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется касательное ускорение при естественном способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a_τ = dv/dt = d²s/dt²$
+      wrong:
+      - $a_τ = v²/ρ$
+      - $a_τ = v·dτ/dt$
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется нормальное ускорение при естественном способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a_n = v²/ρ$, где ρ — радиус кривизны траектории
+      wrong:
+      - $a_n = dv/dt$
+      - $a_n = d²s/dt²$
+- choice:
+    question:
+      types: choice
+      text_data: Чему равно полное ускорение точки при естественном способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a = \sqrt{a_τ² + a_n²}$
+      wrong:
+      - $a = |a_τ| + |a_n|$
+      - $a = a_τ + a_n$
+      - $a = a_τ·a_n$
+- text:
+    path: kinematics/43_point_boost.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как определяются проекции ускорения на оси декартовой системы координат?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a_x = dv_x/dt = d²x/dt²$
+      wrong:
+      - $a_x = dx/dt$
+      - $a_x = ∫ v_x dt$
+      - $a_x = v_x·t$
+- choice:
+    question:
+      types: choice
+      text_data: Какие из следующих утверждений о касательном ускорении верны?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Оно направлено по касательной к траектории
+      - При ускоренном движении направление $a_τ$ совпадает с направлением скорости
+      - При замедленном движении $a_τ$ направлено противоположно скорости
+      wrong:
+      - Касательное ускорение всегда направлено к центру кривизны
+      - $a_τ$ всегда равно нулю при равномерном движении
+      - $a_τ = a_n$
+- number:
+    question:
+      types: number
+      text_data: Точка движется по прямой. Дан график ускорения $а = f(t)$. Определить
+        скорость точки в момент времени t = 6 с, если при $t_0 = 0$ скорость $v_0 = 0$.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_2
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '3.0'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: В каком случае нормальное ускорение точки равно нулю?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - При прямолинейном движении (ρ → ∞)
+      - В точке перегиба траектории (ρ → ∞)
+      wrong:
+      - При равномерном движении по окружности
+      - При любом криволинейном движении
+      - При движении с постоянной скоростью
+- choice:
+    question:
+      types: choice
+      text_data: Чему равно ускорение точки при равномерном движении по окружности
+        радиуса R?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $a = a_n = v²/R = ω²R$
+      - $a_τ = 0$
+      wrong:
+      - $a = 0$
+      - $a = a_τ = const$
+      - $a = a_τ + a_n = v²/R + 0$
+
+- number:
+    question:
+      types: number
+      text_data: Сколько секунд должен работать двигатель, который сообщает ракете
+        ускорение 3g, чтобы скорость ракеты в прямолинейном движении возросла с 4
+        до 7 км/с?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '101.97734'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Какая формула связывает модуль полного ускорения с его проекциями
+        при координатном способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - '$|a| = \sqrt{a_x² + a_y² + a_z²} = \sqrt{(d²x/dt²)² + (d²y/dt²)² + (d²z/dt²)²}$'
+      wrong:
+      - '$|a| = |a_x| + |a_y| + |a_z|$'
+      - '$|a| = √(a_x + a_y + a_z)$'
+      - '$|a| = √((dx/dt)² + (dy/dt)² + (dz/dt)²)$'
+
+- number:
+    question:
+      types: number
+      text_data: Положение кривошипа ОА определяется углом φ = 2t. Определить проекцию
+        ускорения ах точки А в момент времени t = 6 с, если длина ОА = 4 м.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_3
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '0.84385'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте способ задания движения с выражением для ускорения.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Векторный способ
+      - Координатный способ
+      - Естественный способ (компоненты)
+      second:
+      - $a = d²r/dt²$
+      - $a_x = d²x/dt², a_y = d²y/dt², a_z = d²z/dt²$
+      - $a = a_τ·τ + a_n·n, где a_τ = dv/dt, a_n = v²/ρ$
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите компоненту ускорения с ее характеристикой.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Касательное ускорение $a_τ$
+      - Нормальное ускорение $a_n$
+      - Полное ускорение $a$
+      - Радиус кривизны траектории $ρ$
+      second:
+      - Характеризует изменение модуля скорости, направлено по касательной
+      - Характеризует изменение направления скорости, направлено к центру кривизны
+      - Геометрическая сумма касательного и нормального ускорений
+      - 'Входит в формулу нормального ускорения: $a_n = v²/ρ$'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте вид движения с характеристикой ускорения.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Прямолинейное равномерное движение
+      - Прямолинейное равнопеременное движение
+      - Равномерное движение по окружности
+      - Криволинейное неравномерное движение
+      second:
+      - $a = 0$
+      - $a = a_τ = const, a_n = 0$
+      - $a = a_n = v²/R = const, a_τ = 0$
+      - $a = \sqrt{a_τ² + a_n²}$, $a_τ ≠ 0$, $a_n ≠ 0$
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между формулой и физической величиной (естественный
+        способ).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $a_τ = dv/dt$
+      - $a_n = v²/ρ$
+      - $a = \sqrt{a_τ² + a_n²}$
+      - $a_τ = d²s/dt²$
+      second:
+      - Касательное ускорение (через скорость)
+      - Нормальное ускорение
+      - Модуль полного ускорения
+      - Касательное ускорение (через дуговую координату)
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример движения с преобладающей компонентой ускорения.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Автомобиль разгоняется по прямому шоссе
+      - Автомобиль движется с постоянной скоростью по круговой трассе
+      - Автомобиль тормозит на прямом участке
+      - Автомобиль въезжает на поворот, не изменяя скорости
+      second:
+      - $a = a_τ (a_n = 0)$
+      - $a = a_n (a_τ = 0)$
+      - $a = a_τ$ ($a_n = 0$, $a_τ < 0$)
+      - $a = a_n (a_τ = 0)$

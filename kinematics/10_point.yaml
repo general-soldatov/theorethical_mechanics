@@ -75,6 +75,22 @@
       - Путь, пройденный точкой за время движения
       - Скорость изменения положения точки
       - Ускорение точки
+- number:
+    question:
+      types: number
+      text_data: Заданы уравнения движения точки х = 1t, у = 1 - 2 sin(0.1t). Определить
+        ближайший момент времени, когда точка пересечет ось Ох.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '0.87'
+        max_error: '0.05'
 - choice:
     question:
       types: choice

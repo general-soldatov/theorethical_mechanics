@@ -159,6 +159,22 @@
       - S = ∫ v(t) dt
       - S = v·t
       - S = |v|·t
+- number:
+    question:
+      types: number
+      text_data: Даны уравнения движения точки $х = t^2$, $у = sin (πt)$, $z = cos (πt)$
+        Определить модуль скорости точки в момент времени t = 5 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '10.47229'
+        max_error: '0.05'
 - choice:
     question:
       types: choice
@@ -173,8 +189,6 @@
         wrong: ''
       correct:
       - По касательной к траектории
-      - Вектор скорости коллинеарен вектору элементарного перемещения dr = dx·i +
-        dy·j + dz·k
       wrong:
       - По направлению радиус-вектора
       - По направлению главной нормали
@@ -241,6 +255,23 @@
       - dy/dt
       - √(v_x² + v_y² + v_z²)
       - v_x / v
+- number:
+    question:
+      types: number
+      text_data: Положение линейки АВ определяется углом $φ = 0,5t$. Определить в см/с
+        проекцию скорости точки М на ось Ох в момент времени t = 2 с, если расстояние
+        ВМ = 0.12 м.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_1
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '-5.04883'
+        max_error: '0.05'
 - matching:
     question:
       types: matching
@@ -263,6 +294,22 @@
       - ds/dt (производная дуговой координаты по времени)
       - Направление, в котором s возрастает
       - Направление вектора скорости в каждой точке
+- number:
+    question:
+      types: number
+      text_data: Проекция скорости точки $v_x = 2 cos π/2 t$. Определить координату х
+        точки в момент времени t = 0.4 с, если при $t_o = 0$ координата $x_о = 0$.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '0.74839'
+        max_error: '0.05'
 - matching:
     question:
       types: matching
@@ -286,6 +333,22 @@
       - s = s₀ + v₀·t + (a_τ·t²)/2
       - s = const
       - s = s(t) — произвольная дифференцируемая функция
+- number:
+    question:
+      types: number
+      text_data: Скорость автомобиля равномерно увеличивается в течение 18 с от нуля
+        до 67 км/ч. Определить ускорение автомобиля.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '1.03395'
+        max_error: '0.05'
 - matching:
     question:
       types: matching
