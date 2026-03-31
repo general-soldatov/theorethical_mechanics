@@ -1,0 +1,261 @@
+- text:
+    path: statics/31_ficture.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что такое сила трения покоя?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сила, возникающая между двумя телами при отсутствии относительного движения
+        и препятствующая началу движения
+      - Сила, действующая вдоль поверхности соприкосновения и направленная против
+        приложенной силы
+      wrong:
+      - Сила, всегда равная произведению коэффициента трения на нормальную реакцию
+      - Сила, возникающая только при движении
+      - Сила, направленная всегда перпендикулярно поверхности
+- choice:
+    question:
+      types: choice
+      text_data: Что называется конусом трения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Геометрическое место всех возможных направлений полной реакции шероховатой
+        поверхности, образующих с нормалью угол, не превышающий угол трения
+      wrong:
+      - Конус, внутри которого тело скользит
+      - Конус, описываемый вектором скорости
+      - Устройство для измерения силы трения
+- choice:
+    question:
+      types: choice
+      text_data: 'Угол трения φ связан с коэффициентом трения скольжения f соотношением:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - tg φ = f
+      wrong:
+      - sin φ = f
+      - cos φ = f
+      - φ = f
+- choice:
+    question:
+      types: choice
+      text_data: Что такое трение качения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сопротивление, возникающее при перекатывании одного тела по поверхности другого
+      wrong:
+      - Трение между двумя телами при скольжении
+      - Трение в подшипниках
+      - Отсутствие трения при качении
+- choice:
+    question:
+      types: choice
+      text_data: 'Коэффициент трения качения (плечо трения качения) имеет размерность:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Длины (м, см)
+      wrong:
+      - Безразмерная величина
+      - Силы (Н)
+      - Работы (Дж)
+- choice:
+    question:
+      types: choice
+      text_data: Какое условие необходимо для равновесия тела на шероховатой поверхности?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Линия действия равнодействующей активных сил должна проходить внутри конуса
+        трения
+      wrong:
+      - Угол наклона активной силы к нормали должен быть больше угла трения
+      - Нормальная реакция должна быть равна нулю
+      - Сила трения должна быть максимальной
+- choice:
+    question:
+      types: choice
+      text_data: Что характерно для трения качения по сравнению с трением скольжения
+        (при прочих равных условиях)?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сила трения качения значительно меньше силы трения скольжения
+      - Трение качения возникает из-за деформации поверхностей
+      wrong:
+      - Трение качения больше трения скольжения
+      - Трение качения не зависит от нагрузки
+      - Трение качения отсутствует при идеально твердых телах
+- sorting:
+    question:
+      types: sorting
+      text_data: 'Расположите виды трения в порядке **возрастания** величины силы сопротивления
+        (для одних и тех же материалов и нагрузки):'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      steps:
+      - Трение качения
+      - Трение скольжения со смазкой
+      - Трение скольжения без смазки
+- number:
+    question:
+      types: number
+      text_data: Груз удерживается в равновесии двумя стержнями АС и ВС, шарнирно
+        соединенными в точках А, В и С. Стержень ВС растянут силой F2 = 20 Н, а стержень
+        АС сжат силой F1 = 66 Н. Определить вес груза, если заданы углы α = 60° и
+        β = 30°.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_1.jpg
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '57.15768'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Трение покоя
+      - Трение скольжения
+      - Трение качения
+      - Угол трения
+      second:
+      - Сопротивление, возникающее при попытке сдвинуть одно тело относительно другого
+        при отсутствии движения
+      - Сопротивление, возникающее при относительном скольжении двух тел
+      - Сопротивление, возникающее при качении одного тела по поверхности другого
+      - Угол между полной реакцией и нормалью к поверхности, соответствующий максимальной
+        силе трения покоя
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $F_{тр,покоя,max}$
+      - $F_{тр,скольжения}$
+      - $tg φ$
+      - $M_{тр,качения (момент)}$
+      second:
+      - f·N (коэффициент трения покоя на нормальную реакцию)
+      - f·N (коэффициент трения скольжения на нормальную реакцию)
+      - Коэффициент трения f
+      - δ·N (δ — коэффициент трения качения, N — нормальная реакция)
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте условие с поведением тела на шероховатой поверхности.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $F_{внеш} ≤ F_{тр,покоя,max}$
+      - $F_{внеш} > F_{тр,покоя,max}$
+      - Линия действия силы внутри конуса трения
+      - Линия действия силы вне конуса трения
+      second:
+      - Тело остается в покое
+      - Тело начинает скользить
+      - Равновесие сохраняется
+      - Равновесие нарушается, тело движется
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между примером и преобладающим видом трения.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Торможение автомобиля юзом (заблокированные колеса)
+      - Движение поезда по рельсам
+      - Подшипник качения
+      - Подшипник скольжения
+      second:
+      - Трение скольжения
+      - Трение качения (колесо по рельсу)
+      - Трение качения
+      - Трение скольжения (со смазкой)

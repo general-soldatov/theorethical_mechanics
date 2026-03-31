@@ -1,0 +1,339 @@
+- text:
+    path: statics/21_system_of_force.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какая система сил называется сходящейся?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Линии действия всех сил пересекаются в одной точке
+      wrong:
+      - Все силы параллельны друг другу
+      - Все силы лежат в одной плоскости
+      - Силы образуют замкнутый многоугольник
+- choice:
+    question:
+      types: choice
+      text_data: Что представляет собой силовой многоугольник для сходящейся системы
+        сил?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Векторную сумму сил, построенную путем последовательного сложения векторов
+      wrong:
+      - Многоугольник, образованный линиями действия сил
+      - Геометрическое место точек приложения сил
+      - Эпюру распределенной нагрузки
+- choice:
+    question:
+      types: choice
+      text_data: Когда силовой многоугольник называется замкнутым?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Когда конец последнего вектора совпадает с началом первого
+      wrong:
+      - Когда все векторы лежат на одной прямой
+      - Когда сумма модулей сил равна нулю
+      - Когда все силы равны по модулю
+- choice:
+    question:
+      types: choice
+      text_data: Каково геометрическое условие равновесия сходящейся системы сил?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силовой многоугольник замкнут
+      wrong:
+      - Силовой многоугольник вырождается в точку
+      - Все силы лежат на одной прямой
+      - Сумма проекций сил на оси равна нулю
+- choice:
+    question:
+      types: choice
+      text_data: 'Сформулируйте теорему о трёх силах:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Если твердое тело находится в равновесии под действием трёх непараллельных
+        сил, лежащих в одной плоскости, то линии действия этих сил пересекаются в
+        одной точке
+      wrong:
+      - Три силы всегда образуют замкнутый треугольник
+      - Модули трёх сил пропорциональны синусам противолежащих углов
+      - Равнодействующая трёх сил равна нулю
+- text:
+    path: statics/22_system_of_force.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Каково аналитическое условие равновесия сходящейся системы сил на
+        плоскости?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сумма проекций всех сил на ось X равна 0 и сумма проекций на ось Y равна 0
+      wrong:
+      - Сумма моментов всех сил относительно точки равна 0
+      - Сумма модулей всех сил равна 0
+      - Сумма проекций на любую ось равна 1
+- choice:
+    question:
+      types: choice
+      text_data: Что называется моментом силы относительно точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Произведение модуля силы на плечо (кратчайшее расстояние от точки до линии
+        действия силы)
+      - Векторная величина, характеризующая вращательное действие силы
+      wrong:
+      - Произведение силы на время действия
+      - Отношение силы к плечу
+      - Сумма силы и расстояния
+- choice:
+    question:
+      types: choice
+      text_data: 'Теорема Вариньона (о моменте равнодействующей) гласит:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Момент равнодействующей плоской системы сил относительно любой точки равен
+        алгебраической сумме моментов составляющих сил относительно той же точки
+      wrong:
+      - Равнодействующая равна сумме всех сил
+      - Момент силы не зависит от выбора точки
+      - Момент пары сил равен нулю
+- choice:
+    question:
+      types: choice
+      text_data: Что называется парой сил?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Две равные по модулю, параллельные и противоположно направленные силы, не
+        лежащие на одной прямой
+      wrong:
+      - Две силы, приложенные в одной точке
+      - Две силы, образующие замкнутый треугольник
+      - Две силы, линии действия которых совпадают
+- number:
+    question:
+      types: number
+      text_data: К столбу в точке А приложена плоская система сходящихся сил F1 =
+        F2 = F3 = 10 Н. Определить сумму проекций заданных сил на ось Ах, если угол
+        α = 60°.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '27.32051'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Что характеризует крутящий момент (момент пары сил)?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Произведение модуля одной из сил пары на расстояние между линиями действия
+        сил (плечо пары)
+      - Вектор, перпендикулярный плоскости пары
+      - Не зависит от выбора точки, относительно которой вычисляется момент
+      wrong:
+      - Зависит от выбора центра приведения
+      - Равен нулю для любой пары
+      - Измеряется в Ньютонах
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Силовой многоугольник
+      - Замкнутый силовой многоугольник
+      - Плечо силы
+      - Момент пары сил
+      second:
+      - Геометрическое построение векторной суммы сил
+      - Условие равновесия сходящейся системы сил (геометрическое)
+      - Кратчайшее расстояние от точки до линии действия силы
+      - Произведение силы на расстояние между линиями действия пары
+- number:
+    question:
+      types: number
+      text_data: 'Определить модуль равнодействующей сходящихся сил F1 и F2, если
+        известны их проекции на декартовы оси координат: F1x = 2 Н, F1y = 5 Н, F2x=
+        1 Н, F2y = 6 Н.'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '11.40175'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите условие равновесия с типом системы сил (на плоскости).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - ΣFx = 0, ΣFy = 0
+      - Замкнутый силовой многоугольник
+      - ΣM₀ = 0 (для любой точки)
+      - ΣFx = 0, ΣFy = 0, ΣM₀ = 0
+      second:
+      - Аналитическое условие для сходящейся системы
+      - Геометрическое условие для сходящейся системы
+      - Условие равновесия пары сил
+      - Условие равновесия произвольной плоской системы сил (общий случай)
+- number:
+    question:
+      types: number
+      text_data: Силы F1 = F2 = 11 Н и F3 находятся в равновесии. Линии действия сил
+        между собой образуют углы по 120°. Определить модуль силы F3.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '11.0'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте теорему или следствие с её содержанием.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Теорема о трёх силах
+      - Теорема Вариньона (следствие)
+      - Свойство пары сил
+      - Правило параллелограмма
+      second:
+      - Если три непараллельные силы уравновешены, их линии действия пересекаются
+        в одной точке
+      - Момент равнодействующей равен сумме моментов составляющих
+      - Пару сил можно переносить в любую точку плоскости, не меняя её действия на
+        тело
+      - Равнодействующая двух сил, приложенных в одной точке, изображается диагональю
+        параллелограмма
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между величиной и её формулой (для плоского
+        случая).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Модуль момента силы F относительно точки O
+      - Модуль момента пары сил
+      - Проекция силы на ось X
+      - Равнодействующая двух сил по правилу параллелограмма
+      second:
+      - F · d (d — плечо)
+      - F · h (h — расстояние между силами пары)
+      - F · cos α (α — угол между силой и осью)
+      - √(F₁² + F₂² + 2F₁F₂ cos φ) (φ — угол между силами)

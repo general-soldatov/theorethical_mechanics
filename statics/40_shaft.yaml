@@ -1,0 +1,244 @@
+- text:
+    path: statics/41_shaft.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется фермой в теоретической механике?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Геометрически неизменяемая стержневая конструкция, стержни которой соединены
+        в узлах шарнирно
+      wrong:
+      - Сплошная балка с отверстиями
+      - Конструкция, стержни которой жестко заделаны друг в друга
+      - Любая система стержней
+- choice:
+    question:
+      types: choice
+      text_data: Какие допущения принимаются при расчете идеальной фермы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Стержни соединены в узлах идеальными шарнирами
+      - Нагрузка приложена только в узлах
+      - Собственным весом стержней пренебрегают
+      wrong:
+      - Стержни работают только на изгиб
+      - Узлы считаются жесткими заделками
+      - Стержни могут передавать моменты
+- choice:
+    question:
+      types: choice
+      text_data: Что называется узлом фермы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Место соединения нескольких стержней фермы
+      wrong:
+      - Стержень, работающий на сжатие
+      - Верхний пояс фермы
+      - Опорная часть фермы
+- choice:
+    question:
+      types: choice
+      text_data: Какие усилия возникают в стержнях идеальной фермы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Только продольные усилия (растяжение или сжатие)
+      wrong:
+      - Продольные силы и изгибающие моменты
+      - Только поперечные силы
+      - Только крутящие моменты
+- number:
+    question:
+      types: number
+      text_data: Конструкция состоит из 10 стержней. Сколько будет узлов у этой фермы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '17'
+        max_error: '0'
+- choice:
+    question:
+      types: choice
+      text_data: В чем суть метода Риттера (метода сечений) для расчета ферм?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Ферма мысленно рассекается на две части сечением, проходящим через три стержня,
+        не пересекающихся в одном узле
+      - Рассматривается равновесие одной из частей, составляются уравнения моментов
+        относительно точек Риттера
+      wrong:
+      - Последовательно вырезаются все узлы фермы
+      - Все стержни заменяются пружинами
+      - Метод основан на графическом построении силового многоугольника
+- choice:
+    question:
+      types: choice
+      text_data: Каковы замечания (ограничения) к методу Риттера?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сечение должно проходить через три стержня, не пересекающихся в одной точке
+      - Точка Риттера не должна лежать на линии действия других неизвестных сил
+      wrong:
+      - Метод применим только для ферм с параллельными поясами
+      - Сечение может проходить через любое количество стержней
+      - Метод не позволяет определить усилия в опорных стержнях
+- number:
+    question:
+      types: number
+      text_data: Ферма включает в себя 23 узла. Из скольких стержней собрана конструкция?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '13'
+        max_error: '0'
+- choice:
+    question:
+      types: choice
+      text_data: Какие методы определения усилий в стержнях ферм вы знаете?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Метод вырезания узлов
+      - Метод Риттера (метод сечений)
+      wrong:
+      - Метод начальных параметров
+      - Метод конечных элементов (вручную не применяется)
+      - Метод сил из сопротивления материалов
+- choice:
+    question:
+      types: choice
+      text_data: Какое утверждение о методе вырезания узлов верно?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Последовательно рассматривается равновесие каждого узла фермы
+      - В каждом узле сходится система сходящихся сил
+      - Позволяет определить усилия во всех стержнях
+      wrong:
+      - Метод применим только для ферм с параллельными стержнями
+      - В узле составляются уравнения моментов
+      - Метод не требует знания опорных реакций
+- sorting:
+    question:
+      types: sorting
+      text_data: 'Расположите этапы определения усилий в стержнях фермы методом Риттера
+        в правильной последовательности:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      steps:
+      - Определить опорные реакции фермы
+      - Мысленно рассечь ферму сечением, проходящим через три искомых стержня (не
+        пересекающихся в одной точке)
+      - Рассмотреть равновесие одной из частей фермы
+      - Составить уравнение моментов относительно точки Риттера (пересечения двух
+        из трех рассеченных стержней) для определения усилия в третьем стержне
+      - Повторить для других групп стержней
+- string:
+    question:
+      types: string
+      text_data: Как называются внутренние силы, возникающие в стержнях ферм?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      is_html_enabled: true
+      pattern: усилия
+      use_re: false
+      match_substring: false
+      case_sensitive: false
+      code: ''
+      is_text_disabled: false
+      is_file_disabled: true
+- sorting:
+    question:
+      types: sorting
+      text_data: 'Расположите этапы определения усилий методом вырезания узлов в правильной
+        последовательности:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      steps:
+      - Определить опорные реакции фермы
+      - Начать с узла, в котором сходятся не более двух неизвестных стержней
+      - Составить уравнения равновесия ΣFx = 0 и ΣFy = 0 для узла, найти неизвестные
+        усилия
+      - Перейти к следующему узлу, используя найденные усилия как известные
+      - Повторить для всех узлов

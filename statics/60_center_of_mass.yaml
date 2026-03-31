@@ -1,0 +1,292 @@
+- text:
+    path: statics/61_center_of_mass.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется центром тяжести твердого тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Точка, через которую проходит линия действия равнодействующей сил тяжести,
+        действующих на все частицы тела, при любом положении тела в пространстве
+      wrong:
+      - Геометрический центр тела
+      - Точка, в которой сосредоточена вся масса тела
+      - Точка пересечения диагоналей
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляются координаты центра тяжести тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $x_C = (Σ G_i · x_i) / Σ G_i$
+      - $y_C = (Σ G_i · y_i) / Σ G_i$
+      - $z_C = (Σ G_i · z_i) / Σ G_i$
+      wrong:
+      - $x_C = Σ x_i / n$ (среднее арифметическое)
+      - $x_C = Σ G_i / Σ x_i$
+      - $x_C = Σ (G_i + x_i) / Σ G_i$
+- text:
+    path: statics/62_center_of_mass.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какие способы определения центра тяжести существуют?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Метод симметрии
+      - Метод разбиения (разделения на простые фигуры)
+      - Метод отрицательных масс (метод дополнения)
+      - Экспериментальный метод (подвешивания или взвешивания)
+      wrong:
+      - Метод интегрирования по времени
+      - Метод последовательных приближений
+      - Метод конечных разностей
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется положение центра тяжести однородного тела, имеющего
+        ось симметрии?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Центр тяжести лежит на оси симметрии
+      wrong:
+      - Центр тяжести находится в центре масс
+      - Центр тяжести всегда в геометрическом центре
+      - Центр тяжести не может лежать на оси симметрии
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется положение центра тяжести однородного тела, имеющего
+        плоскость симметрии?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Центр тяжести лежит в плоскости симметрии
+      wrong:
+      - Центр тяжести находится вне тела
+      - Центр тяжести всегда на поверхности
+      - Центр тяжести не связан с плоскостью симметрии
+- choice:
+    question:
+      types: choice
+      text_data: В чем суть метода отрицательных масс (метода дополнения)?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Тело с полостью рассматривается как сплошное тело минус вырезанная часть (полость)
+      wrong:
+      - К телу добавляются дополнительные массы для упрощения расчета
+      - Все массы считаются положительными
+      - Метод применяется только для объемных тел
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется центр тяжести плоской фигуры методом разбиения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Фигура разбивается на простые части, для каждой известен центр тяжести, затем
+        применяются формулы $x_C = Σ A_i·x_i / Σ A_i$, $y_C = Σ A_i·y_i / Σ A_i$
+      wrong:
+      - Центр тяжести находится как среднее арифметическое центров частей
+      - Центр тяжести определяется только экспериментально
+      - Метод разбиения не применяется для плоских фигур
+- choice:
+    question:
+      types: choice
+      text_data: В каком случае модуль силы тяжести, действующей на тело, считается
+        постоянным и приложенным в центре тяжести?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - В однородном поле тяжести (когда размеры тела малы по сравнению с радиусом
+        Земли)
+      wrong:
+      - Всегда, независимо от условий
+      - Только для тел правильной формы
+      - Только для жидкостей
+- sorting:
+    question:
+      types: sorting
+      text_data: 'Расположите этапы определения центра тяжести плоской фигуры методом
+        разбиения в правильной последовательности:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      steps:
+      - Разбить фигуру на простые геометрические фигуры (прямоугольники, треугольники,
+        круги и т.д.)
+      - Определить площади $A_i$ и координаты центров тяжести $(x_i, y_i)$ каждой простой
+        фигуры
+      - 'Вычислить статические моменты фигуры относительно осей координат: $Σ A_i·x_i$
+        и $Σ A_i·y_i$'
+      - 'Найти координаты центра тяжести всей фигуры: $x_C = Σ A_i·x_i / Σ A_i$, $y_C
+        = Σ A_i·y_i / Σ A_i$'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Центр тяжести
+      - Статический момент площади
+      - Метод симметрии
+      - Метод отрицательных масс
+      second:
+      - Точка приложения равнодействующей сил тяжести
+      - Произведение площади на расстояние до оси
+      - Центр тяжести лежит на оси или в плоскости симметрии
+      - Использование вычитания площадей для тел с отверстиями
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $x_C = Σ G_i·x_i / Σ G_i$
+      - $S_x = A·y_C$
+      - $x_C = Σ A_i·x_i / Σ A_i$ (для однородной пластины)
+      - $G = Σ G_i$
+      second:
+      - Координата центра тяжести системы частиц
+      - Статический момент площади относительно оси x
+      - Координата центра тяжести однородной плоской фигуры
+      - Модуль силы тяжести всего тела
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте способ определения центра тяжести с его описанием.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Метод симметрии
+      - Метод разбиения
+      - Метод отрицательных масс
+      - Экспериментальный метод
+      second:
+      - Использует геометрические свойства фигуры для упрощения
+      - Фигура делится на простые части с известными центрами тяжести
+      - Применяется для фигур с вырезами (полостями)
+      - Основан на подвешивании или взвешивании тела
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между типом фигуры и положением центра тяжести.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Однородный треугольник
+      - Однородный круг (диск)
+      - Однородный прямоугольник
+      - Однородное кольцо (тонкое)
+      second:
+      - На пересечении медиан (на расстоянии 1/3 высоты от основания)
+      - В геометрическом центре (центре окружности)
+      - На пересечении диагоналей
+      - В геометрическом центре (в пустоте)
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите координату центра тяжести с формулой для однородного тела
+        (объемного).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $x_C$
+      - $y_C$
+      - $z_C$
+      second:
+      - $∫ x dV / V$
+      - $∫ y dV / V$
+      - $∫ z dV / V$
