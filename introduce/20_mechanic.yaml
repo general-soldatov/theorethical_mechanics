@@ -1,0 +1,159 @@
+- text:
+    path: introduce/21_mechanics.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какое понятие в механике означает изменение положения тела в пространстве
+        относительно других тел с течением времени?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Механическое движение
+      wrong:
+      - Механическое взаимодействие
+      - Деформация
+      - Равновесие
+- choice:
+    question:
+      types: choice
+      text_data: Какие из перечисленных разделов входят в классическую теоретическую
+        механику?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Статика
+      - Кинематика
+      - Динамика
+      wrong:
+      - Термодинамика
+      - Электродинамика
+      - Квантовая механика
+- choice:
+    question:
+      types: choice
+      text_data: Какой раздел механики изучает движение тел без учета причин, вызывающих
+        это движение?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Кинематика
+      wrong:
+      - Статика
+      - Динамика
+      - Сопротивление материалов
+- choice:
+    question:
+      types: choice
+      text_data: Что изучает статика?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Условия равновесия тел
+      - Преобразование систем сил
+      wrong:
+      - Движение тел под действием сил
+      - Геометрию движения
+      - Упругие деформации
+- choice:
+    question:
+      types: choice
+      text_data: Какое из утверждений верно?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Статика является частным случаем динамики при ускорении, равном нулю
+      wrong:
+      - Кинематика изучает силы инерции
+      - Динамика не использует понятие скорости
+      - Статика и кинематика полностью независимы от динамики
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте раздел механики с его определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Статика
+      - Кинематика
+      - Динамика
+      second:
+      - Изучает равновесие тел и преобразование систем сил
+      - Изучает геометрические свойства движения тел без учета сил
+      - Изучает движение тел под действием приложенных сил
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите основное понятие с разделом механики, где оно вводится.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Сила
+      - Траектория
+      - Масса
+      second:
+      - Статика / Динамика
+      - Кинематика
+      - Динамика
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между вопросом и разделом механики.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Как движется тело?
+      - Почему движется тело?
+      - При каких условиях тело не движется?
+      second:
+      - Кинематика
+      - Динамика
+      - Статика

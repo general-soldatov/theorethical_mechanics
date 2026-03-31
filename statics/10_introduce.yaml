@@ -1,0 +1,270 @@
+- text:
+    path: statics/11_introduce.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что изучает статика?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Условия равновесия тел под действием сил
+      - Преобразование систем сил в эквивалентные
+      wrong:
+      - Движение тел под действием сил
+      - Геометрические свойства движения
+      - Деформации твердых тел
+- choice:
+    question:
+      types: choice
+      text_data: Что называется силой в механике?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Мера механического взаимодействия тел
+      - Векторная величина, характеризующая действие одного тела на другое
+      wrong:
+      - Свойство тела сохранять скорость
+      - Мера инертности тела
+      - Изменение положения тела в пространстве
+- choice:
+    question:
+      types: choice
+      text_data: Какие из перечисленных характеристик определяют силу как вектор?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Числовое значение (модуль)
+      - Направление
+      - Точка приложения
+      wrong:
+      - Температура
+      - Цвет
+      - Электрический заряд
+- choice:
+    question:
+      types: choice
+      text_data: Что такое система сил?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Совокупность сил, действующих на тело
+      wrong:
+      - Одна сила, заменяющая все остальные
+      - Сила, уравновешивающая систему
+      - Сумма модулей всех сил
+- choice:
+    question:
+      types: choice
+      text_data: Какие силы называются эквивалентными?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силы, оказывающие на тело одинаковое механическое действие
+      wrong:
+      - Силы, равные по модулю
+      - Силы, направленные вдоль одной прямой
+      - Силы, приложенные в одной точке
+- choice:
+    question:
+      types: choice
+      text_data: Что такое равнодействующая сила?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Сила, эквивалентная данной системе сил
+      wrong:
+      - Сила, уравновешивающая систему
+      - Сила, равная сумме модулей всех сил
+      - Сила, противоположная главному вектору
+- choice:
+    question:
+      types: choice
+      text_data: Какие силы называются внешними по отношению к механической системе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силы, действующие на тела системы со стороны тел, не входящих в систему
+      wrong:
+      - Силы взаимодействия между телами внутри системы
+      - Силы, приложенные к центру масс
+      - Силы, возникающие при деформации
+- text:
+    path: statics/12_connections.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какие из перечисленных типов связей являются типичными в статике?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Гладкая поверхность
+      - Гибкая нить
+      - Жесткая заделка
+      - Шарнир
+      wrong:
+      - Пружина с переменной жесткостью
+      - Электромагнитное поле
+      - Тепловой поток
+- choice:
+    question:
+      types: choice
+      text_data: Какие утверждения о распределенных силах верны?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Они действуют на часть поверхности или объема тела
+      - Их характеризуют интенсивностью (например, Н/м)
+      - Пример — давление жидкости на стенку
+      wrong:
+      - Они всегда приложены к одной точке
+      - Их всегда можно заменить сосредоточенной силой без расчета
+      - Они не учитываются в статике
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с его определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Система сил
+      - Уравновешенная система сил
+      - Равнодействующая сила
+      - Уравновешивающая сила
+      second:
+      - Совокупность сил, действующих на тело
+      - Система, которая не меняет состояния покоя или движения тела
+      - Сила, эквивалентная всей системе сил
+      - Сила, равная равнодействующей по модулю и направленная противоположно
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите тип связи с направлением реакции связи.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Гладкая поверхность (опора)
+      - Гибкая нерастяжимая нить
+      - Жесткий стержень (с шарнирами на концах)
+      - Гладкий шарнир (неподвижный)
+      second:
+      - По нормали к поверхности
+      - Вдоль нити (на растяжение)
+      - Вдоль стержня (на растяжение или сжатие)
+      - Любое направление в плоскости (проходит через центр шарнира)
+- number:
+    question:
+      types: number
+      text_data: Определить модуль равнодействующей двух равных по модулю сходящихся
+        сил F1 = F2 = 2 Н, образующих между собой угол α = 60°.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '3.4641'
+        max_error: '0.05'
+- number:
+    question:
+      types: number
+      text_data: Определить угол в градусах между равнодействующей двух сил F1 = 8
+        Н и F2 = 3 Н и осью Ох, если угол α = 30°.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '45.29534'
+        max_error: '0.05'
+- number:
+    question:
+      types: number
+      text_data: Какую по модулю силу F3 надо приложить к сходящимся силам F1 = 3
+        Н и F2 = 9 Н, образующим с осью Ох углы α = 30° и β = 60°, чтобы равнодействующая
+        этих трех сил равнялась нулю?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '13.92473'
+        max_error: '0.05'

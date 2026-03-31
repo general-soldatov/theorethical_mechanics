@@ -1,0 +1,157 @@
+- text:
+    path: introduce/11_introduce.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Сколько Вам лет?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - до 16
+      wrong:
+      - от 17 до 20
+      - от 21 до 25
+      - от 26 до 30
+      - старше 31
+- choice:
+    question:
+      types: choice
+      text_data: Откуда узнали про наш курс?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По рекомендации
+      wrong:
+      - Из подборки Stepik
+      - В поисковой строке
+      - В социальных сетях
+      - Случайно нашёл
+- choice:
+    question:
+      types: choice
+      text_data: Какой Ваш род деятельности?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Учусь
+      wrong:
+      - Работаю в IT сфере
+      - Работаю в инженерной сфере
+      - Не работаю и не учусь
+      - Делаю, что попало...
+- text:
+    path: introduce/12_introduce.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какой раздел теоретической механики изучает движение тел без учета
+        действующих сил?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Кинематика
+      wrong:
+      - Статика
+      - Динамика
+      - Аналитическая механика
+- choice:
+    question:
+      types: choice
+      text_data: Что является предметом изучения статики?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Равновесие тел под действием сил
+      - Условия эквивалентности систем сил
+      wrong:
+      - Движение тел под действием сил
+      - Геометрические свойства движения
+      - Колебания механических систем
+
+- choice:
+    question:
+      types: choice
+      text_data: Какой раздел механики отвечает на вопрос «Почему движется тело?»?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Динамика
+      wrong:
+      - Статика
+      - Кинематика
+      - Геометрия масс
+- choice:
+    question:
+      types: choice
+      text_data: Какой раздел использует законы Ньютона как основу?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Динамика
+      wrong:
+      - Статика
+      - Кинематика
+      - Все три раздела
+- sequence:
+    question:
+      types: sorting
+      text_data: 'Расположите разделы теоретической механики в порядке, отражающем
+        историческое развитие или логику усложнения (от простого к сложному): сначала
+        изучают условия равновесия, затем — геометрию движения, и наконец — движение
+        под действием сил.'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      steps:
+      - Статика
+      - Кинематика
+      - Динамика
