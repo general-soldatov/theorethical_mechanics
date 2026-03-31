@@ -1,0 +1,311 @@
+- text:
+    path: kinematics/31_point_speed.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется алгебраическая скорость точки при естественном способе
+        задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $v = ds/dt$, где s — дуговая координата
+      wrong:
+      - $v = d²s/dt²$, где s — дуговая координата
+      - $v = ∫ s dt$, где s — дуговая координата
+      - $v = s/t$, где s — дуговая координата
+- choice:
+    question:
+      types: choice
+      text_data: Как направлен вектор скорости точки при естественном способе задания
+        движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По касательной к траектории в сторону движения
+      - Вдоль главной нормали
+      - По касательной (знак определяет направление)
+      wrong:
+      - К центру кривизны траектории
+      - По радиус-вектору
+      - Перпендикулярно траектории
+- text:
+    path: kinematics/32_point_speed.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как выражается вектор скорости через проекции на оси декартовой системы
+        координат?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - v = v_x·i + v_y·j + v_z·k, где v_x = dx/dt, v_y = dy/dt, v_z = dz/dt
+      wrong:
+      - v = (dx/dt + dy/dt + dz/dt)·(i+j+k)
+      - v = (d²x/dt²)·i + (d²y/dt²)·j + (d²z/dt²)·k
+      - v = ∫(x+y+z) dt
+- choice:
+    question:
+      types: choice
+      text_data: Чему равен модуль скорости при координатном способе задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - '|v| = √( (dx/dt)² + (dy/dt)² + (dz/dt)² )'
+      wrong:
+      - '|v| = |dx/dt| + |dy/dt| + |dz/dt|'
+      - '|v| = √(d²x/dt² + d²y/dt² + d²z/dt²)'
+      - '|v| = √(x² + y² + z²)'
+- choice:
+    question:
+      types: choice
+      text_data: Какие из следующих утверждений о скорости при естественном способе
+        верны?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Алгебраическая скорость может быть положительной или отрицательной
+      - Модуль скорости равен |ds/dt|
+      - Направление скорости определяется знаком производной ds/dt
+      wrong:
+      - Скорость всегда направлена по главной нормали
+      - Скорость при естественном способе — всегда скаляр
+      - Модуль скорости всегда равен ds/dt (без знака)
+- choice:
+    question:
+      types: choice
+      text_data: Если движение точки задано уравнениями x = R·cos(ωt), y = R·sin(ωt),
+        то чему равна проекция скорости на ось x?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - v_x = -R·ω·sin(ωt)
+      wrong:
+      - v_x = R·ω·cos(ωt)
+      - v_x = -R·ω·cos(ωt)
+      - v_x = R·sin(ωt)
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны между собой скорость и дуговая координата при естественном
+        способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - s = s₀ + ∫ v dt
+      wrong:
+      - v = d²s/dt²
+      - s = ∫ v dt + s₀
+      - s = v·t (только для равномерного движения)
+- choice:
+    question:
+      types: choice
+      text_data: Какая формула позволяет найти путь, пройденный точкой, если известна
+        алгебраическая скорость v(t)?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - S = ∫ |v(t)| dt (интеграл от модуля скорости)
+      wrong:
+      - S = ∫ v(t) dt
+      - S = v·t
+      - S = |v|·t
+- choice:
+    question:
+      types: choice
+      text_data: 'При координатном способе задания движения вектор скорости направлен:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По касательной к траектории
+      - Вектор скорости коллинеарен вектору элементарного перемещения dr = dx·i +
+        dy·j + dz·k
+      wrong:
+      - По направлению радиус-вектора
+      - По направлению главной нормали
+      - Перпендикулярно траектории
+- choice:
+    question:
+      types: choice
+      text_data: 'Если при естественном способе v = ds/dt > 0, то это означает:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Точка движется в положительном направлении отсчета дуговой координаты s
+      wrong:
+      - Точка движется с постоянной скоростью
+      - Скорость точки возрастает
+      - Ускорение точки положительно
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте способ задания движения с формулой для определения модуля
+        скорости.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Координатный способ
+      - Естественный способ
+      - Векторный способ
+      second:
+      - '|v| = √( (dx/dt)² + (dy/dt)² + (dz/dt)² )'
+      - '|v| = |ds/dt|'
+      - '|v| = |dr/dt|'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите кинематическую величину с её выражением (координатный
+        способ).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - v_x
+      - v_y
+      - Модуль скорости v
+      - Направляющий косинус cos(α) (угол с осью x)
+      second:
+      - dx/dt
+      - dy/dt
+      - √(v_x² + v_y² + v_z²)
+      - v_x / v
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с его определением (естественный способ).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Дуговая координата s
+      - Алгебраическая скорость v
+      - Положительное направление отсчета s
+      - Касательная к траектории
+      second:
+      - Расстояние вдоль траектории от выбранного начала до точки
+      - ds/dt (производная дуговой координаты по времени)
+      - Направление, в котором s возрастает
+      - Направление вектора скорости в каждой точке
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между видом движения и законом изменения
+        дуговой координаты s(t).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Равномерное движение
+      - Равнопеременное движение
+      - Покой
+      - Произвольное движение
+      second:
+      - s = s₀ + v·t
+      - s = s₀ + v₀·t + (a_τ·t²)/2
+      - s = const
+      - s = s(t) — произвольная дифференцируемая функция
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример уравнений движения с типом траектории (координатный
+        способ).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - x = v₀·t, y = 0
+      - x = R·cos(ωt), y = R·sin(ωt)
+      - x = v₀·t, y = gt²/2
+      - x = R·cos(ωt), y = R·sin(ωt), z = h·t
+      second:
+      - Прямолинейное движение вдоль оси x
+      - Движение по окружности в плоскости xy
+      - Движение по параболе (например, тело, брошенное горизонтально)
+      - Движение по винтовой линии

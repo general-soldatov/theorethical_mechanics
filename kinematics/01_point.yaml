@@ -1,0 +1,336 @@
+- text:
+    path: kinematics/11_point.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что изучает кинематика?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Геометрические свойства движения тел без учета действующих сил и масс
+      wrong:
+      - Движение тел под действием сил
+      - Условия равновесия тел
+      - Деформации тел под нагрузкой
+- choice:
+    question:
+      types: choice
+      text_data: Что необходимо для задания движения точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Система отсчета (тело отсчета, система координат, прибор измерения времени)
+      wrong:
+      - Только система координат
+      - Только начало отсчета
+      - Только часы
+- choice:
+    question:
+      types: choice
+      text_data: Какие способы задания движения точки существуют?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Векторный
+      - Координатный
+      - Естественный (траекторный)
+      wrong:
+      - Графический
+      - Статический
+      - Энергетический
+- choice:
+    question:
+      types: choice
+      text_data: Что называется траекторией движения точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Линия, описываемая движущейся точкой в пространстве
+      wrong:
+      - Путь, пройденный точкой за время движения
+      - Скорость изменения положения точки
+      - Ускорение точки
+- choice:
+    question:
+      types: choice
+      text_data: Как задается движение точки при векторном способе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Радиус-вектор точки задается как функция времени: $r = r(t)$'
+      wrong:
+      - Задаются координаты точки как функции времени
+      - Задаются траектория и закон движения по траектории
+      - Задаются проекции скорости
+- choice:
+    question:
+      types: choice
+      text_data: Что такое годограф вектора?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Геометрическое место концов переменного вектора при изменении параметра (например,
+        времени)
+      wrong:
+      - График изменения модуля вектора
+      - Проекция вектора на координатную ось
+      - Траектория движения точки
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны скорость точки и радиус-вектор при векторном способе
+        задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Скорость есть первая производная радиус-вектора по времени: $v = dr/dt$'
+      wrong:
+      - Скорость есть интеграл радиус-вектора
+      - Скорость равна радиус-вектору
+      - Скорость есть вторая производная радиус-вектора
+- choice:
+    question:
+      types: choice
+      text_data: Какие параметры используются при естественном способе задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Траектория (известна заранее)
+      - Начало отсчета на траектории
+      - Положительное направление отсчета дуговой координаты s
+      - Закон движения $s = s(t)$
+      wrong:
+      - Радиус-вектор точки
+      - Координаты x, y, z
+      - Проекции скорости на оси
+- choice:
+    question:
+      types: choice
+      text_data: Что определяет координатный способ задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Задание координат точки как функций времени: $x = x(t)$, $y = y(t)$, $z = z(t)$'
+      wrong:
+      - Задание только одной координаты
+      - Задание только траектории
+      - Задание только скорости
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется скорость точки при координатном способе задания
+        движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Проекции скорости равны производным соответствующих координат по времени:
+        $v_x = dx/dt$, $v_y = dy/dt$, $v_z = dz/dt$'
+      - Модуль скорости $v = \sqrt{v_x² + v_y² + v_z²}$
+      wrong:
+      - Скорость равна сумме координат
+      - Скорость равна производной пути по времени
+      - Скорость определяется только по одной координате
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте способ задания движения точки с его определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Векторный способ
+      - Координатный способ
+      - Естественный способ
+      second:
+      - 'Радиус-вектор точки задан как функция времени: r = r(t)'
+      - 'Координаты точки заданы как функции времени: x = x(t), y = y(t), z = z(t)'
+      - 'Известны траектория и закон движения по траектории: s = s(t)'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите кинематическую величину с ее определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Траектория
+      - Скорость точки
+      - Ускорение точки
+      - Годограф радиус-вектора
+      second:
+      - Линия, описываемая точкой в пространстве
+      - Первая производная радиус-вектора по времени
+      - Первая производная скорости или вторая производная радиус-вектора по времени
+      - Траектория конца радиус-вектора
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте формулу с кинематической величиной (координатный способ).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $v_x = dx/dt$
+      - $a_x = d²x/dt²$
+      - $v = \sqrt{v_x² + v_y² + v_z²}$
+      - $a = \sqrt{a_x² + a_y² + a_z²}$
+      second:
+      - Проекция скорости на ось x
+      - Проекция ускорения на ось x
+      - Модуль скорости
+      - Модуль ускорения
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между компонентой ускорения (естественный
+        способ) и ее характеристикой.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Касательное ускорение $a_τ$
+      - Нормальное ускорение $a_n$
+      - Полное ускорение $a$
+      - Радиус кривизны траектории $ρ$
+      second:
+      - Характеризует изменение модуля скорости, направлено по касательной
+      - Характеризует изменение направления скорости, направлено к центру кривизны
+      - 'Геометрическая сумма $a_τ$ и $a_n$: $a = \sqrt{a_τ² + a_n²}$'
+      - 'Входит в формулу нормального ускорения: $a_n = v²/ρ$'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример с соответствующим способом задания движения, который
+        наиболее удобен для описания.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Движение точки по окружности известного радиуса
+      - Движение точки, заданное уравнениями x = R·cos(ωt), y = R·sin(ωt)
+      - Движение точки, где r = 3t·i + 2t²·j
+      - Движение точки по сложной криволинейной траектории с известным законом s(t)
+      second:
+      - Естественный способ
+      - Координатный способ (параметрическое задание траектории)
+      - Векторный способ
+      - Естественный способ
+- number:
+    question:
+      types: number
+      text_data: <strong>На повторение!</strong> Однородный шар весом 6 Н удерживается в равновесии на гладкой наклонной
+        плоскости с помощью веревки АВ. Определить давление шара на плоскость, если
+        угол α = 60°.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_3.jpg
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '5.19615'
+        max_error: '0.05'
+- number:
+    question:
+      types: number
+      text_data: <strong>На повторение!</strong> Вес однородной горизонтальной балки АВ равен 155 Н. Задан угол α
+        = 45°. Определить реакцию шарнира А.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_4.jpg
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '109.60155'
+        max_error: '0.05'

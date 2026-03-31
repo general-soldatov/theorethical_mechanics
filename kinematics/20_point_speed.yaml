@@ -1,0 +1,301 @@
+- text:
+    path: kinematics/21_point_speed.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как определяется скорость точки при векторном способе задания движения?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Первая производная радиус-вектора по времени: v = dr/dt'
+      wrong:
+      - Вторая производная радиус-вектора по времени
+      - Интеграл радиус-вектора по времени
+      - Произведение радиус-вектора на время
+- choice:
+    question:
+      types: choice
+      text_data: Какое направление имеет вектор скорости точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - По касательной к траектории в данной точке
+      - В направлении движения точки
+      wrong:
+      - По направлению радиус-вектора
+      - К центру кривизны траектории
+      - Перпендикулярно траектории
+- choice:
+    question:
+      types: choice
+      text_data: Что представляет собой годограф радиус-вектора?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Траектория конца радиус-вектора
+      wrong:
+      - Траектория движения точки
+      - График изменения модуля скорости
+      - Линия, описываемая концом вектора скорости
+- choice:
+    question:
+      types: choice
+      text_data: Что представляет собой годограф вектора скорости?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Кривая, описываемая концом вектора скорости, отложенного из общего центра
+      wrong:
+      - Траектория движения точки
+      - Зависимость скорости от времени
+      - Проекция скорости на ось
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны между собой годограф радиус-вектора и траектория точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Годограф радиус-вектора совпадает с траекторией точки
+      wrong:
+      - Годограф радиус-вектора является производной траектории
+      - Траектория является годографом скорости
+      - Эти понятия не связаны
+- choice:
+    question:
+      types: choice
+      text_data: Какие из следующих утверждений о скорости точки верны?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Скорость — векторная величина
+      - Скорость характеризует быстроту изменения положения точки
+      - Скорость направлена по касательной к траектории
+      wrong:
+      - Скорость всегда постоянна по модулю
+      - Скорость направлена по радиус-вектору
+      - Скорость является скалярной величиной
+- choice:
+    question:
+      types: choice
+      text_data: Если радиус-вектор точки задан как r(t) = 3t·i + 2t²·j, то чему равна
+        проекция скорости на ось y?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - v_y = 4t
+      wrong:
+      - v_y = 2t
+      - v_y = 2
+      - v_y = 4
+- choice:
+    question:
+      types: choice
+      text_data: Как найти модуль скорости, если известен вектор скорости v = v_x·i
+        + v_y·j + v_z·k?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - '|v| = √(v_x² + v_y² + v_z²)'
+      wrong:
+      - '|v| = v_x + v_y + v_z'
+      - '|v| = √(v_x + v_y + v_z)'
+      - '|v| = v_x·v_y·v_z'
+- choice:
+    question:
+      types: choice
+      text_data: Что можно сказать о движении точки, если годограф её скорости является
+        прямой линией?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Вектор скорости изменяется только по модулю, направление остается неизменным
+      wrong:
+      - Точка движется по окружности
+      - Скорость точки постоянна
+      - Ускорение точки равно нулю
+- choice:
+    question:
+      types: choice
+      text_data: Какая из формул правильно выражает элементарное перемещение точки
+        через скорость?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - dr = v·dt
+      wrong:
+      - dr = a·dt
+      - v = dr·dt
+      - dr = v/dt
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с его определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Скорость точки
+      - Годограф радиус-вектора
+      - Годограф вектора скорости
+      - Элементарное перемещение
+      second:
+      - Векторная величина, характеризующая быстроту изменения положения точки
+      - Траектория конца радиус-вектора (совпадает с траекторией точки)
+      - Кривая, описываемая концом вектора скорости, отложенного из общего центра
+      - dr = v·dt
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - v = dr/dt
+      - '|v| = √(v_x² + v_y² + v_z²)'
+      - dr = v·dt
+      - v = d(r)/dt (векторная запись)
+      second:
+      - Определение вектора скорости
+      - Модуль вектора скорости
+      - Элементарное перемещение точки
+      - Скорость как производная радиус-вектора
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте характер движения с особенностью вектора скорости.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Прямолинейное движение
+      - Равномерное движение
+      - Движение с постоянной скоростью по модулю и направлению
+      - Криволинейное движение
+      second:
+      - Вектор скорости сохраняет направление
+      - Модуль скорости постоянен
+      - Вектор скорости постоянен
+      - Вектор скорости изменяет направление
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между математической операцией и получаемой
+        кинематической характеристикой (при векторном способе).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - dr/dt
+      - d²r/dt²
+      - ∫ v dt
+      - '|dr/dt|'
+      second:
+      - Вектор скорости v
+      - Вектор ускорения a
+      - Радиус-вектор r (с точностью до начальных условий)
+      - Модуль скорости |v|
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример записи радиус-вектора с типом траектории.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - r(t) = (R·cos(ωt))·i + (R·sin(ωt))·j
+      - r(t) = (v₀·t)·i
+      - r(t) = (at²/2)·i + (bt)·j
+      - r(t) = (R·cos(ωt))·i + (R·sin(ωt))·j + (h·t)·k
+      second:
+      - Окружность в плоскости xy
+      - Прямолинейное движение вдоль оси x
+      - Параболическое движение в плоскости xy
+      - Винтовая линия (цилиндрическая спираль)
