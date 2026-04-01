@@ -277,25 +277,20 @@
       - Вектор ускорения a
       - Радиус-вектор r (с точностью до начальных условий)
       - Модуль скорости |v|
-- matching:
+- number:
     question:
-      types: matching
-      text_data: Соотнесите пример записи радиус-вектора с типом траектории.
+      types: number
+      text_data: <strong>На повторение!</strong> Однородный шар весом 6 Н удерживается в равновесии на гладкой наклонной
+        плоскости с помощью веревки АВ. Определить давление шара на плоскость, если
+        угол α = 60°.
       code_path: null
-      image: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_3.jpg
       help: null
     answer:
       sample_size: null
       feedback:
         correct: ''
         wrong: ''
-      first:
-      - r(t) = (R·cos(ωt))·i + (R·sin(ωt))·j
-      - r(t) = (v₀·t)·i
-      - r(t) = (at²/2)·i + (bt)·j
-      - r(t) = (R·cos(ωt))·i + (R·sin(ωt))·j + (h·t)·k
-      second:
-      - Окружность в плоскости xy
-      - Прямолинейное движение вдоль оси x
-      - Параболическое движение в плоскости xy
-      - Винтовая линия (цилиндрическая спираль)
+      data:
+      - answer: '5.19615'
+        max_error: '0.05'

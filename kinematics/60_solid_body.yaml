@@ -79,47 +79,6 @@
       - Соединить точки прямой; МЦС — середина этой прямой
       - Провести линии, параллельные скоростям; МЦС — на их пересечении
       - МЦС находится в точке пересечения линий действия скоростей
-- choice:
-    question:
-      types: choice
-      text_data: 'Если плоская фигура совершает мгновенно поступательное движение,
-        то:'
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - Скорости всех точек фигуры в данный момент одинаковы
-      - Угловая скорость фигуры равна нулю
-      - Мгновенный центр скоростей находится в бесконечности
-      wrong:
-      - Угловое ускорение максимально
-      - МЦС совпадает с центром масс
-      - Все точки имеют разные скорости
-- choice:
-    question:
-      types: choice
-      text_data: Как связаны скорости двух точек плоской фигуры при известной угловой
-        скорости?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - $v_B = v_A + v_{BA}$, где $v_{BA} = ω × AB$, $v_{BA} = ω·AB$ и направлена перпендикулярно
-        AB
-      wrong:
-      - $v_B = v_A + ω·AB$ (по направлению AB)
-      - $v_B = v_A - ω·AB$
-      - $v_B = v_A / ω$
 - text:
     path: kinematics/62_solid_body.md
     data: null
@@ -266,29 +225,6 @@
       data:
       - answer: '4.24264'
         max_error: '0.05'
-- matching:
-    question:
-      types: matching
-      text_data: Установите соответствие между компонентой относительного ускорения
-        и ее направлением (при движении вокруг полюса).
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      first:
-      - $a_{BA}^τ$ (вращательная)
-      - $a_{BA}^n$ (центростремительная)
-      - Результирующее относительное ускорение $a_{BA}$
-      - Угол μ между $a_{BA}$ и $a_{BA}^n$
-      second:
-      - Перпендикулярно отрезку AB (в сторону действия ε)
-      - От точки B к полюсу A (по направлению AB)
-      - Геометрическая сумма $a_{BA}^τ$ и $a_{BA}^n$
-      - $μ = arctg(ε / ω²)$
 - number:
     question:
       types: number
@@ -328,3 +264,19 @@
       - МЦС находится на пересечении перпендикуляров к скоростям концов стержня
       - Скорости всех точек одинаковы, ω = 0
       - Все точки движутся по окружностям вокруг неподвижной точки (МЦС неподвижен)
+- number:
+    question:
+      types: number
+      text_data: Даны уравнения движения точки $х = t^2$, $у = sin (πt)$, $z = cos (πt)$
+        Определить модуль скорости точки в момент времени t = 5 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '10.47229'
+        max_error: '0.05'

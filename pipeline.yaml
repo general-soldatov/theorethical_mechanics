@@ -1,0 +1,48 @@
+course:
+  course_id: 278225
+  score:
+    choice: 1
+    matching: 2
+    code: 5
+    sorting: 1
+    number: 3
+    string: 3
+    text: null
+
+sections:
+  # - title: Добро пожаловать!
+    # lessons:
+    #   - title: Познакомимся??
+    #     steps: introduce/10_introduce.yaml
+    #   - title: Что за зверь такой - механика...
+    #     steps: introduce/20_mechanic.yaml
+  # - title: Статика
+  #   lessons:
+  #     - title: Познакомимся со статикой
+  #       steps: statics/10_introduce.yaml
+  #     - title: Плоская система сил
+  #       steps: statics/20_system_of_force.yaml
+  #     - title: Что за жизнь без трения...
+  #       steps: statics/30_ficture.yaml
+  #     - title: Стержневые конструкции
+  #       steps: statics/40_shaft.yaml
+  #     - title: О силах в пространстве
+  #       steps: statics/50_spatial.yaml
+  #     - title: Центр масс, а может центр тяжести?
+  #       steps: statics/60_center_of_mass.yaml
+  - title: Кинематика
+    lessons:
+      # - title: Кинематика точки
+      #   steps: kinematics/10_point.yaml
+      # - title: О скорости в векторном виде
+      #   steps: kinematics/20_point_speed.yaml
+      # - title: О скорости в естественной и декартовой осях координат
+      #   steps: kinematics/30_point_speed.yaml
+      # - title: Ускоримся!
+      #   steps: kinematics/40_point_boost.yaml
+      # - title: Движение твёрдых тел
+      #   steps: kinematics/50_solid_body.yaml
+      - title: О плоском движении твёрдого тела
+        steps: kinematics/60_solid_body.yaml
+      - title: Сложное движение точки
+        steps: kinematics/70_complex.yaml

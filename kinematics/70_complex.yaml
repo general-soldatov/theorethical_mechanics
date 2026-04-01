@@ -268,3 +268,19 @@
       - Ускорение точки подвижной системы, совпадающей с движущейся точкой
       - Возникает из-за вращения подвижной системы и относительного движения
       - Суммарное ускорение точки в неподвижной системе отсчета
+- number:
+    question:
+      types: number
+      text_data: <strong>На повторение!</strong> Вес однородной горизонтальной балки АВ равен 155 Н. Задан угол α
+        = 45°. Определить реакцию шарнира А.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_4.jpg
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '109.60155'
+        max_error: '0.05'

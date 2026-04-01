@@ -98,44 +98,6 @@
 - text:
     path: kinematics/43_point_boost.md
     data: null
-- choice:
-    question:
-      types: choice
-      text_data: Как определяются проекции ускорения на оси декартовой системы координат?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - $a_x = dv_x/dt = d²x/dt²$
-      wrong:
-      - $a_x = dx/dt$
-      - $a_x = ∫ v_x dt$
-      - $a_x = v_x·t$
-- choice:
-    question:
-      types: choice
-      text_data: Какие из следующих утверждений о касательном ускорении верны?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - Оно направлено по касательной к траектории
-      - При ускоренном движении направление $a_τ$ совпадает с направлением скорости
-      - При замедленном движении $a_τ$ направлено противоположно скорости
-      wrong:
-      - Касательное ускорение всегда направлено к центру кривизны
-      - $a_τ$ всегда равно нулю при равномерном движении
-      - $a_τ = a_n$
 - number:
     question:
       types: number
@@ -152,25 +114,6 @@
       data:
       - answer: '3.0'
         max_error: '0.05'
-- choice:
-    question:
-      types: choice
-      text_data: В каком случае нормальное ускорение точки равно нулю?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - При прямолинейном движении (ρ → ∞)
-      - В точке перегиба траектории (ρ → ∞)
-      wrong:
-      - При равномерном движении по окружности
-      - При любом криволинейном движении
-      - При движении с постоянной скоростью
 - choice:
     question:
       types: choice
@@ -191,7 +134,6 @@
       - $a = 0$
       - $a = a_τ = const$
       - $a = a_τ + a_n = v²/R + 0$
-
 - number:
     question:
       types: number
@@ -209,25 +151,6 @@
       data:
       - answer: '101.97734'
         max_error: '0.05'
-- choice:
-    question:
-      types: choice
-      text_data: Какая формула связывает модуль полного ускорения с его проекциями
-        при координатном способе?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - '$|a| = \sqrt{a_x² + a_y² + a_z²} = \sqrt{(d²x/dt²)² + (d²y/dt²)² + (d²z/dt²)²}$'
-      wrong:
-      - '$|a| = |a_x| + |a_y| + |a_z|$'
-      - '$|a| = √(a_x + a_y + a_z)$'
-      - '$|a| = √((dx/dt)² + (dy/dt)² + (dz/dt)²)$'
 
 - number:
     question:
@@ -265,28 +188,6 @@
       - $a = d²r/dt²$
       - $a_x = d²x/dt², a_y = d²y/dt², a_z = d²z/dt²$
       - $a = a_τ·τ + a_n·n, где a_τ = dv/dt, a_n = v²/ρ$
-- matching:
-    question:
-      types: matching
-      text_data: Соотнесите компоненту ускорения с ее характеристикой.
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      first:
-      - Касательное ускорение $a_τ$
-      - Нормальное ускорение $a_n$
-      - Полное ускорение $a$
-      - Радиус кривизны траектории $ρ$
-      second:
-      - Характеризует изменение модуля скорости, направлено по касательной
-      - Характеризует изменение направления скорости, направлено к центру кривизны
-      - Геометрическая сумма касательного и нормального ускорений
-      - 'Входит в формулу нормального ускорения: $a_n = v²/ρ$'
 - matching:
     question:
       types: matching
@@ -332,25 +233,3 @@
       - Нормальное ускорение
       - Модуль полного ускорения
       - Касательное ускорение (через дуговую координату)
-- matching:
-    question:
-      types: matching
-      text_data: Соотнесите пример движения с преобладающей компонентой ускорения.
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      first:
-      - Автомобиль разгоняется по прямому шоссе
-      - Автомобиль движется с постоянной скоростью по круговой трассе
-      - Автомобиль тормозит на прямом участке
-      - Автомобиль въезжает на поворот, не изменяя скорости
-      second:
-      - $a = a_τ (a_n = 0)$
-      - $a = a_n (a_τ = 0)$
-      - $a = a_τ$ ($a_n = 0$, $a_τ < 0$)
-      - $a = a_n (a_τ = 0)$

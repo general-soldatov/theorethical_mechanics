@@ -22,24 +22,6 @@
 - choice:
     question:
       types: choice
-      text_data: Что необходимо для задания движения точки?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - Система отсчета (тело отсчета, система координат, прибор измерения времени)
-      wrong:
-      - Только система координат
-      - Только начало отсчета
-      - Только часы
-- choice:
-    question:
-      types: choice
       text_data: Какие способы задания движения точки существуют?
       code_path: null
       image: null
@@ -94,24 +76,6 @@
 - choice:
     question:
       types: choice
-      text_data: Как задается движение точки при векторном способе?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - 'Радиус-вектор точки задается как функция времени: $r = r(t)$'
-      wrong:
-      - Задаются координаты точки как функции времени
-      - Задаются траектория и закон движения по траектории
-      - Задаются проекции скорости
-- choice:
-    question:
-      types: choice
       text_data: Что такое годограф вектора?
       code_path: null
       image: null
@@ -128,25 +92,6 @@
       - График изменения модуля вектора
       - Проекция вектора на координатную ось
       - Траектория движения точки
-- choice:
-    question:
-      types: choice
-      text_data: Как связаны скорость точки и радиус-вектор при векторном способе
-        задания движения?
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      correct:
-      - 'Скорость есть первая производная радиус-вектора по времени: $v = dr/dt$'
-      wrong:
-      - Скорость есть интеграл радиус-вектора
-      - Скорость равна радиус-вектору
-      - Скорость есть вторая производная радиус-вектора
 - choice:
     question:
       types: choice
@@ -294,59 +239,3 @@
       - Характеризует изменение направления скорости, направлено к центру кривизны
       - 'Геометрическая сумма $a_τ$ и $a_n$: $a = \sqrt{a_τ² + a_n²}$'
       - 'Входит в формулу нормального ускорения: $a_n = v²/ρ$'
-- matching:
-    question:
-      types: matching
-      text_data: Соотнесите пример с соответствующим способом задания движения, который
-        наиболее удобен для описания.
-      code_path: null
-      image: null
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      first:
-      - Движение точки по окружности известного радиуса
-      - Движение точки, заданное уравнениями x = R·cos(ωt), y = R·sin(ωt)
-      - Движение точки, где r = 3t·i + 2t²·j
-      - Движение точки по сложной криволинейной траектории с известным законом s(t)
-      second:
-      - Естественный способ
-      - Координатный способ (параметрическое задание траектории)
-      - Векторный способ
-      - Естественный способ
-- number:
-    question:
-      types: number
-      text_data: <strong>На повторение!</strong> Однородный шар весом 6 Н удерживается в равновесии на гладкой наклонной
-        плоскости с помощью веревки АВ. Определить давление шара на плоскость, если
-        угол α = 60°.
-      code_path: null
-      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_3.jpg
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      data:
-      - answer: '5.19615'
-        max_error: '0.05'
-- number:
-    question:
-      types: number
-      text_data: <strong>На повторение!</strong> Вес однородной горизонтальной балки АВ равен 155 Н. Задан угол α
-        = 45°. Определить реакцию шарнира А.
-      code_path: null
-      image: https://storage.yandexcloud.net/phys-bot/mechanic/statics_3_4.jpg
-      help: null
-    answer:
-      sample_size: null
-      feedback:
-        correct: ''
-        wrong: ''
-      data:
-      - answer: '109.60155'
-        max_error: '0.05'
