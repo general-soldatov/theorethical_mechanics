@@ -30,8 +30,8 @@ sections:
   #       steps: statics/50_spatial.yaml
   #     - title: Центр масс, а может центр тяжести?
   #       steps: statics/60_center_of_mass.yaml
-  - title: Кинематика
-    lessons:
+  # - title: Кинематика
+  #   lessons:
       # - title: Кинематика точки
       #   steps: kinematics/10_point.yaml
       # - title: О скорости в векторном виде
@@ -42,7 +42,23 @@ sections:
       #   steps: kinematics/40_point_boost.yaml
       # - title: Движение твёрдых тел
       #   steps: kinematics/50_solid_body.yaml
-      - title: О плоском движении твёрдого тела
-        steps: kinematics/60_solid_body.yaml
-      - title: Сложное движение точки
-        steps: kinematics/70_complex.yaml
+      # - title: О плоском движении твёрдого тела
+      #   steps: kinematics/60_solid_body.yaml
+      # - title: Сложное движение точки
+      #   steps: kinematics/70_complex.yaml
+  - title: Динамика
+    lessons:
+      - title: Законы динамики
+        steps: dynamics/10_introduce.yaml
+      - title: Работа сил
+        steps: dynamics/20_forses.yaml
+      - title: О колебательном движении
+        steps: dynamics/30_oscillation.yaml
+      - title: Относительное движение точки
+        steps: dynamics/40_relative_motion.yaml
+      - title: Динамика системы материальных точек
+        steps: dynamics/50_system.yaml
+      - title: Дифференциальные уравнения движения системы
+        steps: dynamics/60_drive_system.yaml
+      - title: Кинетическая энергия
+        steps: dynamics/70_kinetic_energy.yaml
