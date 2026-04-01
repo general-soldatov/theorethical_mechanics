@@ -322,8 +322,8 @@
 - number:
     question:
       types: number
-      text_data: Определить угловую скорость колеса, если точка А имеет скорость vA=
-        19 м/с, а радиус колеса r = 0.3 м.
+      text_data: Определить угловую скорость колеса, если точка А имеет скорость $v_A=
+        19$ м/с, а радиус колеса r = 0.3 м.
       code_path: null
       image: https://storage.yandexcloud.net/phys-bot/mechanic/kinematics_3_5
       help: null
