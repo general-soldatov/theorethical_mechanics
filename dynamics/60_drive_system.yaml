@@ -1,0 +1,186 @@
+- text:
+    path: dynamics/61_drive_system.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Как записываются дифференциальные уравнения движения системы материальных
+        точек в векторной форме?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $m_i·a_i = F_i^{внеш} + F_i^{внутр}$ для каждой точки i
+      wrong:
+      - $M·a_C = Σ F^{внеш}$ (только для центра масс)
+      - $Σ m_i·a_i = 0$
+      - $m_i·v_i = const$
+- text:
+    path: dynamics/62_drive_system.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: В каком случае выполняется закон сохранения движения центра масс?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Когда геометрическая сумма всех внешних сил равна нулю: $Σ F^{внеш} = 0$'
+      - 'Тогда скорость центра масс постоянна: $v_C = const$'
+      wrong:
+      - Когда сумма моментов внешних сил равна нулю
+      - Когда внутренние силы совершают работу
+      - Когда система замкнута по массе
+- text:
+    path: dynamics/63_drive_system.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется количеством движения (импульсом) системы материальных
+        точек?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - '$Q = Σ m_i·v_i$'
+      - $Q = M·v_C$, где $M$ — масса системы, $v_C$ — скорость центра масс
+      wrong:
+      - $Q = Σ F·t$
+      - $Q = M·a_C$
+      - $Q = Σ m_i·r_i$
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны количество движения системы и скорость ее центра масс, где $M$ — полная масса системы, $v_C$ — скорость центра масс?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $Q = M·v_C$
+      wrong:
+      - $Q = M·a_C$
+      - $Q = Σ m_i·r_i$
+      - $Q = I·ω$
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Количество движения системы
+      - Главный момент количества движения
+      - Центр масс системы
+      - Закон сохранения движения центра масс
+      second:
+      - $Q = Σ m_i·v_i = M·v_C$
+      - $K_O = Σ (r_i × m_i·v_i)$
+      - Точка, движение которой определяется только внешними силами
+      - При $Σ F^{внеш} = 0$, $v_C = const$
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с теоремой (законом) динамики системы.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $dQ/dt = Σ F^{внеш}$
+      - $M·a_C = Σ F^{внеш}$
+      - $dK_O/dt = Σ M_O(F^{внеш})$
+      - $Q = const$ при $Σ F^{внеш} = 0$
+      second:
+      - Теорема об изменении количества движения
+      - Теорема о движении центра масс
+      - Теорема об изменении главного момента количества движения
+      - Закон сохранения количества движения
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите физическую величину с её математическим выражением для
+        системы материальных точек.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Полная масса системы
+      - Скорость центра масс
+      - Количество движения системы
+      - Главный момент количества движения
+      second:
+      - $M = Σ m_i$
+      - $v_C = Σ m_i·v_i / M$
+      - $Q = Σ m_i·v_i$
+      - $K_O = Σ (r_i × m_i·v_i)$
+- number:
+    question:
+      types: number
+      text_data: Определить в кН среднюю силу удара молотка массой m = 0.7 кг при
+        абсолютно неупругом ударе по наковальне, если скорость до удара v = 9 м/с
+        и время удара 0.0005 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '12.6'
+        max_error: '0.05'
+- number:
+    question:
+      types: number
+      text_data: Тело массой m1 = 1 кг ударяет со скоростью v10 = 6 м/с по неподвижному
+        телу массой m2 = 6 кг. Принимая, что удар абсолютно неупругий, определить
+        потери кинетической энергии.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '15.42857'
+        max_error: '0.05'

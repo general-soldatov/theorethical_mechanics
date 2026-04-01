@@ -1,0 +1,270 @@
+- text:
+    path: dynamics/51_system_of_point.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется системой материальных точек?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Совокупность материальных точек, движение которых взаимосвязано и рассматривается
+        совместно
+      wrong:
+      - Любое множество материальных точек
+      - Одна материальная точка
+      - Твердое тело
+- choice:
+    question:
+      types: choice
+      text_data: Какие силы называются внешними по отношению к механической системе?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силы, действующие на точки системы со стороны тел, не входящих в данную систему
+      wrong:
+      - Силы взаимодействия между точками внутри системы
+      - Силы, приложенные к центру масс
+      - Силы, зависящие только от времени
+- text:
+    path: dynamics/52_system_of_point.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Какие силы называются внутренними?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силы взаимодействия между материальными точками, входящими в систему
+      wrong:
+      - Силы, действующие на систему извне
+      - Силы тяжести
+      - Силы упругости
+- choice:
+    question:
+      types: choice
+      text_data: Каким свойством обладают внутренние силы для любой механической системы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Геометрическая сумма всех внутренних сил равна нулю
+      - Сумма моментов всех внутренних сил относительно любого центра равна нулю
+      wrong:
+      - Работа всех внутренних сил всегда равна нулю
+      - Внутренние силы всегда консервативны
+      - Внутренние силы всегда равны нулю
+- choice:
+    question:
+      types: choice
+      text_data: Что называется осевым моментом инерции материальной точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Произведение массы точки на квадрат расстояния от точки до оси: I = m·d²'
+      wrong:
+      - Произведение массы на скорость
+      - Сумма масс всех точек
+      - Произведение массы на радиус-вектор
+- text:
+    path: dynamics/53_system_of_point.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется радиусом инерции тела относительно оси?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Величина i = √(I/m), где I — момент инерции тела относительно оси, m — масса
+        тела
+      - Расстояние от оси до точки, в которой нужно сосредоточить всю массу тела,
+        чтобы момент инерции не изменился
+      wrong:
+      - Радиус тела
+      - Расстояние от центра масс до оси
+      - Момент инерции, деленный на массу
+- choice:
+    question:
+      types: choice
+      text_data: 'Сформулируйте теорему Штейнера — Гюйгенса:'
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $I = I_C + m·d²$
+      wrong:
+      - $I = I_C - m·d²$
+      - $I = I_C·d²$
+      - $I = I_C / (m·d²)$
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляется момент инерции тонкого кольца (обруча) относительно
+        оси, проходящей через его центр перпендикулярно плоскости?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $I = m·R²$
+      wrong:
+      - $I = m·R²/2$
+      - $I = 2m·R²/5$
+      - $I = m·R²/12$
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Система материальных точек
+      - Внешние силы
+      - Внутренние силы
+      - Центр масс
+      second:
+      - Совокупность материальных точек, рассматриваемых как единое целое
+      - Силы, действующие на точки системы со стороны тел, не входящих в систему
+      - Силы взаимодействия между точками внутри системы
+      - Точка, характеризующая распределение масс в системе, $r_C = \frac{Σ m_i\cdot r_i}{M}
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной (динамика системы).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $M·a_C = Σ F_{внеш}$
+      - $I = Σ m_i·r_i²$ (для оси)
+      - $I = I_C + m·d²$
+      - $\rho = \sqrt{I/m}$
+      second:
+      - Теорема о движении центра масс
+      - Осевой момент инерции системы материальных точек
+      - Теорема Штейнера — Гюйгенса
+      - Радиус инерции
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте тело с его моментом инерции относительно оси, проходящей
+        через центр масс.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Тонкое кольцо (обруч) (ось перпендикулярна плоскости)
+      - Тонкий стержень (ось перпендикулярна стержню, проходит через середину)
+      - Сплошной диск (цилиндр) (ось геометрическая)
+      - Тонкий стержень (ось перпендикулярна стержню, проходит через конец)
+      second:
+      - $I_C = m·R²$
+      - $I_C = m·L²/12$
+      - $I_C = m·R²/2$
+      - $I = m·L²/3$ (по теореме Штейнера)
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между свойством и типом сил.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $Σ F_{внутр} = 0$
+      - $Σ M_{внутр} = 0$ (относительно любого центра) 
+      - Могут изменять кинетическую энергию системы
+      - Не могут изменить положение центра масс системы
+      second:
+      - Свойство внутренних сил (векторная сумма)
+      - Свойство внутренних сил (сумма моментов)
+      - Внутренние силы (могут совершать работу)
+      - Внутренние силы (не влияют на движение центра масс)
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример механической системы с определением её центра масс.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Две одинаковые массы на концах невесомого стержня
+      - Система из трех одинаковых масс в вершинах равностороннего треугольника
+      - Однородный стержень
+      - Однородный диск
+      second:
+      - Центр масс в середине стержня
+      - Центр масс в точке пересечения медиан (центре треугольника)
+      - Центр масс в геометрическом центре стержня
+      - Центр масс в геометрическом центре диска

@@ -1,0 +1,253 @@
+- text:
+    path: dynamics/11_introduce.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что изучает динамика?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Движение тел под действием приложенных сил
+      - Движение тел с учетом их инерционных свойств и взаимодействия
+      wrong:
+      - Геометрические свойства движения без учета сил
+      - Условия равновесия тел
+      - Деформации тел под нагрузкой
+- choice:
+    question:
+      types: choice
+      text_data: Что характеризует инертность тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Свойство тела сопротивляться изменению скорости (как по модулю, так и по направлению)
+      wrong:
+      - Способность тела совершать работу
+      - Свойство тела притягиваться к Земле
+      - Способность тела деформироваться
+- choice:
+    question:
+      types: choice
+      text_data: Что является мерой инертности тела в классической механике?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Масса тела
+      wrong:
+      - Вес тела
+      - Объем тела
+      - Плотность тела
+- choice:
+    question:
+      types: choice
+      text_data: Что называется количеством движения материальной точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Векторная величина, равная произведению массы точки на её скорость: p = m·v'
+      wrong:
+      - Произведение массы на ускорение
+      - Интеграл силы по времени
+      - Произведение силы на время действия
+- choice:
+    question:
+      types: choice
+      text_data: Что называется импульсом силы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Векторная мера действия силы за некоторый промежуток времени: S = ∫ F dt'
+      wrong:
+      - Произведение силы на перемещение
+      - Произведение массы на скорость
+      - Произведение силы на ускорение
+- number:
+    question:
+      types: number
+      text_data: Точка массой m = 2 кг движется по горизонтальной прямой с ускорением
+        а = 0.1 t. Определить модуль силы, действующей на точку в направлении ее движения
+        в момент времени t = 9 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '16.2'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Как связаны изменение количества движения и импульс силы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Изменение количества движения точки за некоторый промежуток времени равно
+        импульсу действующей силы: Δ(mv) = ∫ F dt'
+      wrong:
+      - Изменение количества движения равно работе силы
+      - Импульс силы равен производной количества движения
+      - Количество движения равно импульсу силы
+- choice:
+    question:
+      types: choice
+      text_data: В чем суть принципа Даламбера?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - В каждый момент движения активные силы, реакции связей и сила инерции образуют
+        уравновешенную систему сил
+      - Позволяет свести задачи динамики к задачам статики
+      wrong:
+      - Сумма всех сил равна произведению массы на ускорение
+      - Сила инерции всегда направлена противоположно ускорению
+      - Принцип Даламбера применяется только для статики
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Динамика
+      - Инертность
+      - Количество движения
+      - Импульс силы
+      second:
+      - Раздел механики, изучающий движение тел под действием сил
+      - Свойство тела сопротивляться изменению скорости
+      - Мера механического движения, p = m·v
+      - Мера действия силы за промежуток времени, S = ∫ F dt
+- number:
+    question:
+      types: number
+      text_data: Точка массой m = 10 кг движется по горизонтальной оси Ох с ускорением
+        ах = ln t. Определить модуль силы, действующей на точку в направлении движения
+        в момент времени t = 6 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '17.91759'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите закон Ньютона с его формулировкой.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Первый закон Ньютона
+      - Второй закон Ньютона
+      - Третий закон Ньютона
+      - Закон всемирного тяготения (не входит в основные законы динамики)
+      second:
+      - 'Закон инерции: тело сохраняет состояние покоя или равномерного движения при
+        отсутствии внешних воздействий'
+      - 'Основной закон динамики: m·a = F'
+      - 'Закон равенства действия и противодействия: F₁₂ = -F₂₁'
+      - Сила взаимного притяжения пропорциональна произведению масс и обратно пропорциональна
+        квадрату расстояния
+- number:
+    question:
+      types: number
+      text_data: Моторная лодка массой m = 250 кг после остановки мотора движется
+        прямолинейно, преодолевая сопротивление воды. Сила сопротивления R = 4v^2.
+        Определить ускорение лодки, когда ее скорость v = 5 м/с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '-0.4'
+        max_error: '0.05'
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте формулу с физической величиной.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - p = m·v
+      - S = ∫ F dt
+      - Δp = S
+      - F_ин = -m·a
+      second:
+      - Количество движения
+      - Импульс силы
+      - Теорема об изменении количества движения
+      - Сила инерции (принцип Даламбера)
+

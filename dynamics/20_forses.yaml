@@ -1,0 +1,285 @@
+- text:
+    path: dynamics/21_forses_work.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется элементарной работой силы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Скалярная величина, равная скалярному произведению вектора силы на вектор
+        элементарного перемещения: dA = F·dr = F·ds·cos α'
+      wrong:
+      - Произведение модуля силы на модуль перемещения
+      - Произведение массы на ускорение
+      - Векторная величина, равная F × dr
+- choice:
+    question:
+      types: choice
+      text_data: В каких случаях работа силы положительна?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Когда угол между направлением силы и направлением перемещения острый (0 ≤
+        α < 90°)
+      wrong:
+      - Когда угол α = 90°
+      - Когда угол α > 90°
+      - Когда сила перпендикулярна перемещению
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляется работа постоянной силы на прямолинейном перемещении?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - A = F·S·cos α, где S — модуль перемещения, α — угол между силой и перемещением
+      wrong:
+      - A = F·S
+      - A = m·v²/2
+      - A = ∫ F·v dt
+- number:
+    question:
+      types: number
+      text_data: Трактор, двигаясь с ускорением $а = 2 м/с^2$ по горизонтальному участку
+        пути, перемещает нагруженные сани массой 600 кг. Определить силу тяги на крюке,
+        если коэффициент трения скольжения саней $f = 0.05$.
+      code_path: null
+      image: https://storage.yandexcloud.net/phys-bot/mechanic/dynamics_3_1.jpg
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '1494.183'
+        max_error: '0.05'
+- text:
+    path: dynamics/22_forses_work.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется кинетической энергией материальной точки?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $T = m·v²/2$ — скалярная мера механического движения
+      wrong:
+      - $T = m·v$
+      - $T = m·a$
+      - $T = F·S$
+- choice:
+    question:
+      types: choice
+      text_data: Какие силы называются потенциальными (консервативными)?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Силы, работа которых не зависит от траектории, а определяется только начальным
+        и конечным положением точки
+      - Силы, для которых существует потенциальная энергия
+      wrong:
+      - Силы, работа которых всегда положительна
+      - Силы, зависящие только от времени
+      - Силы, работа которых зависит от пути
+- number:
+    question:
+      types: number
+      text_data: Материальная точка массой m = 47 кг из состояния покоя движется по
+        гладкой горизонтальной направляющей под действием силы F = 45 Н, вектор которой
+        образует постоянный угол α = 20° с направляющей. Определить путь, пройденный
+        точкой за время t = 12 с.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      data:
+      - answer: '64.77881'
+        max_error: '0.05'
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляется потенциальная энергия тела в поле силы тяжести вблизи
+        поверхности Земли?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - W = m·g·h, где h — высота над условным нулевым уровнем
+      wrong:
+      - W = m·g
+      - W = m·v²/2
+      - W = m·g·h²
+- choice:
+    question:
+      types: choice
+      text_data: Какое выражение определяет мощность силы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - N = dA/dt = F·v — работа, совершаемая силой в единицу времени
+      wrong:
+      - N = F·S
+      - N = m·v
+      - N = A·t
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте термин с определением.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Работа силы
+      - Кинетическая энергия
+      - Потенциальная энергия
+      - Мощность
+      second:
+      - Мера действия силы, характеризующая переход механического движения из одной
+        формы в другую
+      - Энергия механического движения, T = m·v²/2
+      - Энергия взаимодействия тел, зависящая от их взаимного расположения
+      - Работа, совершаемая силой в единицу времени
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - dA = F·dr
+      - A = F·S·cos α
+      - T = m·v²/2
+      - N = F·v
+      second:
+      - Элементарная работа силы
+      - Работа постоянной силы на прямолинейном перемещении
+      - Кинетическая энергия материальной точки
+      - Мощность силы
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте тип силы с характеристикой её работы.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Консервативные (потенциальные) силы
+      - Неконсервативные (диссипативные) силы
+      - Силы, перпендикулярные перемещению
+      - Постоянная сила, направленная вдоль перемещения
+      second:
+      - Работа не зависит от траектории, существует потенциальная энергия
+      - Работа зависит от траектории (например, силы трения)
+      - Работа равна нулю
+      - Работа положительна и равна A = F·S
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между выражением и его применением (теорема
+        об изменении кинетической энергии).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $ΔT = ΣA$
+      - $T₂ - T₁ = A_{конс} + A_{неконс}$
+      - $T + W = const$
+      - $A_конс = W₁ - W₂$
+      second:
+      - Общая формулировка теоремы об изменении кинетической энергии
+      - Теорема с разделением на работу консервативных и неконсервативных сил
+      - Закон сохранения механической энергии (при $A_{неконс} = 0$)
+      - Работа консервативных сил равна убыли потенциальной энергии
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите пример с видом энергии или работы, который в нем преимущественно
+        рассматривается.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Подъем груза краном на высоту h
+      - Разгон автомобиля на горизонтальном участке
+      - Падение тела с высоты h без учета сопротивления воздуха
+      - Сжатие пружины
+      second:
+      - Работа силы тяжести (отрицательная), увеличение потенциальной энергии
+      - Работа силы тяги, увеличение кинетической энергии
+      - Превращение потенциальной энергии в кинетическую, закон сохранения
+      - Работа упругой силы, накопление потенциальной энергии упругой деформации

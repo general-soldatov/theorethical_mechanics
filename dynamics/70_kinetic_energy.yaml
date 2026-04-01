@@ -1,0 +1,217 @@
+- text:
+    path: dynamics/71_kinetic_energy.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Что называется кинетической энергией механической системы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - 'Сумма кинетических энергий всех материальных точек, входящих в систему: $T
+        = Σ (m_i·v_i²/2)$'
+      wrong:
+      - $T = M·v_C²/2$
+      - $T = I·ω²/2$
+      - $T = Σ m_i·g·h_i$
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляется кинетическая энергия тела при поступательном движении, где $M$ — масса тела, $v_C$ — скорость центра масс, $I_C$ — момент инерции тела, ω —
+        угловая скорость?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $T = M·v_C²/2$
+      wrong:
+      - $T = I_C·ω²/2$
+      - $T = M·v_C²$
+      - $T = Σ m_i·v_i²$
+- choice:
+    question:
+      types: choice
+      text_data: Как вычисляется кинетическая энергия тела при вращательном движении
+        вокруг неподвижной оси, где $M$ — масса тела, $v_C$ — скорость центра масс, $I_O$ — момент инерции тела относительно оси вращения, ω —
+        угловая скорость?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - $T = I_O·ω²/2$
+      wrong:
+      - $T = M·v_C²/2$
+      - $T = I_C·ω²/2$
+      - $T = M·ω²/2$
+- choice:
+    question:
+      types: choice
+      text_data: Как выглядит теорема об изменении кинетической энергии системы в
+        интегральной (конечной) форме?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - '$T₂ - T₁ = Σ A_{внеш} + Σ A_{внутр}$'
+      wrong:
+      - $T₂ - T₁ = Σ A_{внеш}$
+      - $T₂ - T₁ = 0$
+      - $T = const$
+- text:
+    path: dynamics/72_kinetic_energy.md
+    data: null
+- choice:
+    question:
+      types: choice
+      text_data: Каким методом можно эмпирически (экспериментально) определить момент
+        инерции тела?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Методом крутильных колебаний (трифилярный подвес)
+      - Методом физического маятника
+      - Методом скатывания тела с наклонной плоскости
+      wrong:
+      - Методом взвешивания
+      - Методом измерения объема
+      - Методом прямого измерения линейных размеров
+- choice:
+    question:
+      types: choice
+      text_data: В каком случае внутренние силы не совершают работы?
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      correct:
+      - Для абсолютно твердого тела (расстояния между точками неизменны)
+      - Для идеальных связей
+      - Для систем, где внутренние силы консервативны
+      wrong:
+      - Всегда совершают работу
+      - Никогда не совершают работу
+      - Только при наличии трения
+- matching:
+    question:
+      types: matching
+      text_data: Сопоставьте вид движения с формулой кинетической энергии.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Поступательное движение
+      - Вращательное движение вокруг неподвижной оси
+      - Плоское движение
+      - Сложное движение (общий случай для твердого тела))
+      second:
+      - $T = M·v_C²/2$
+      - $T = I_O·ω²/2$
+      - $T = M·v_C²/2 + I_C·ω²/2$
+      - $T = M·v_C²/2 + I_C·ω²/2$
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите формулу с физической величиной (кинетическая энергия).
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - $dT = Σ δA_{внеш} + Σ δA_{внутр}$
+      - $T₂ - T₁ = Σ A_{внеш} + Σ A_{внутр}$
+      - $T = Σ (m_i·v_i²/2)$
+      - $T = I_C·ω²/2$
+      second:
+      - Теорема об изменении кинетической энергии (дифференциальная форма)
+      - Теорема об изменении кинетической энергии (интегральная форма)
+      - Определение кинетической энергии системы
+      - Кинетическая энергия вращения вокруг оси через центр масс
+- matching:
+    question:
+      types: matching
+      text_data: Установите соответствие между методом определения момента инерции
+        и его описанием.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Метод крутильных колебаний
+      - Метод физического маятника
+      - Метод скатывания с наклонной плоскости
+      - Метод Штейнера (расчетный)
+      second:
+      - Измерение периода крутильных колебаний тела на упругом подвесе
+      - Измерение периода малых колебаний тела, подвешенного за точку, не совпадающую
+        с центром масс
+      - Измерение времени скатывания тела по наклонной плоскости и использование закона
+        сохранения энергии
+      - Вычисление момента инерции относительно произвольной оси через момент инерции
+        относительно центра масс
+- matching:
+    question:
+      types: matching
+      text_data: Соотнесите вид сил с их вкладом в изменение кинетической энергии
+        системы.
+      code_path: null
+      image: null
+      help: null
+    answer:
+      sample_size: null
+      feedback:
+        correct: ''
+        wrong: ''
+      first:
+      - Внешние силы
+      - Внутренние силы (абсолютно твердое тело)
+      - Внутренние силы (деформируемое тело)
+      - Силы трения (внешние)
+      second:
+      - Могут изменять кинетическую энергию системы
+      - Не совершают работу (суммарная работа равна нулю)
+      - Могут совершать работу и изменять кинетическую энергию
+      - Работа отрицательна, уменьшают кинетическую энергию
